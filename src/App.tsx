@@ -285,7 +285,7 @@ function HomePage({ locale, onNavigate }: { locale: Locale; onNavigate: (route: 
           subtitle: item.credential,
           period: item.period,
           logo: item.logo,
-          points: [item.focus],
+          points: item.focus,
         }))} />
       </Section>
 

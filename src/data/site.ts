@@ -32,7 +32,7 @@ export type EducationItem = {
   credential: string
   period: string
   logo: string
-  focus: string
+  focus: readonly string[]
 }
 
 export type Highlight = {
@@ -159,7 +159,10 @@ export const education = [
     credential: 'Bachelor of Science in Computer Science',
     period: 'Sep 2023 — Jun 2027',
     logo: '/ntust.png',
-    focus: 'Third-year CSIE student with GPA 4.20/4.30, ranked 3rd in the department (Top 4%).',
+    focus: [
+      'Third-year CSIE student with GPA 4.20/4.30, ranked 3rd in the department (Top 4%).',
+      'At NLP Lab (Prof. Kuan-Yu Chen), researching Multimodal Emotion Recognition in Conversations.',
+    ],
   },
 ] satisfies readonly EducationItem[]
 
@@ -172,7 +175,6 @@ export const openSource = [
     repository: 'apache/airflow',
     points: [
       'Optimized UI API request performance with selective auto-refresh, reducing requests by up to 78%.',
-      'Contributed API server features and fixes.',
     ],
     links: [{ label: 'Pull requests', href: 'https://github.com/apache/airflow/pulls?q=is%3Apr+author%3Aviiccwen', handle: 'apache/airflow' }],
   },
@@ -184,7 +186,7 @@ export const openSource = [
     repository: 'apache/mahout',
     points: [
       'Optimized GPU amplitude encoding for CUDA tensors in zero-copy, reducing encoding time by 33%.',
-      'Designed automated Python and Rust API documentation plus CI/CD pipelines for QuMat and QDP.',
+      'Designed automated API documentation plus CI/CD pipelines.',
       'Established multi-language Rust/Python coverage testing infrastructure.',
       'Contributed 30+ PRs and reviewed 60+ PRs focused on code quality and performance.',
     ],
