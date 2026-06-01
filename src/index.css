@@ -148,6 +148,10 @@ a {
   background-color: rgba(255, 255, 255, 0.72) !important;
 }
 
+.theme-light .logo-frame {
+  background-color: transparent !important;
+}
+
 .theme-light [class*='border-white/'] {
   border-color: rgba(124, 58, 237, 0.16) !important;
 }
