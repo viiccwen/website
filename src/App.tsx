@@ -261,11 +261,10 @@ function HomePage({ locale, onNavigate }: { locale: Locale; onNavigate: (route: 
                     <h3 className="text-lg font-semibold text-zinc-100 transition group-hover:text-violet-200">{item.title}</h3>
                     <span className="font-mono text-xs uppercase tracking-[0.18em] text-zinc-600">{item.period}</span>
                   </div>
-                  <p className="mt-1 text-sm text-zinc-500">{item.subtitle} · {item.repository}</p>
                   <ul className="mt-4 space-y-2">
-                    {item.points.map((point) => <Bullet key={point}>{point}</Bullet>)}
+                    {item.points.map((point, index) => <Bullet key={index}>{point}</Bullet>)}
                   </ul>
-                  <div className="mt-5 flex flex-wrap gap-2">
+                  <div className="mt-4 flex flex-wrap gap-2">
                     {item.links.map((link) => (
                       <a className="text-xs uppercase tracking-[0.18em] text-violet-300 transition hover:text-violet-200" href={link.href} key={link.href} rel="noreferrer" target="_blank">
                         {link.label} →
@@ -285,7 +284,20 @@ function HomePage({ locale, onNavigate }: { locale: Locale; onNavigate: (route: 
           subtitle: item.credential,
           period: item.period,
           logo: item.logo,
-          points: item.focus,
+          points: item.focus.map((point) => {
+            if (item.labHref && point.startsWith('NLP Lab')) {
+              return (
+                <>
+                  <a className="text-violet-300 underline-offset-4 transition hover:text-violet-200 hover:underline" href={item.labHref} rel="noreferrer" target="_blank">
+                    NLP Lab
+                  </a>
+                  {point.slice('NLP Lab'.length)}
+                </>
+              )
+            }
+
+            return point
+          }),
         }))} />
       </Section>
 
@@ -373,7 +385,7 @@ function Section({ children, id, index, label }: { children: ReactNode; id: stri
   )
 }
 
-function Timeline({ items }: { items: Array<{ title: string; subtitle: string; period: string; logo: string; summary?: string; points: readonly string[]; href?: string }> }) {
+function Timeline({ items }: { items: Array<{ title: string; subtitle: string; period: string; logo: string; summary?: string; points: readonly ReactNode[]; href?: string }> }) {
   return (
     <div className="divide-y divide-white/10">
       {items.map((item) => (
@@ -391,7 +403,7 @@ function Timeline({ items }: { items: Array<{ title: string; subtitle: string; p
               {item.summary ? <p className="mt-4 text-sm leading-7 text-zinc-400">{item.summary}</p> : null}
               {item.points.length > 0 ? (
                 <ul className="mt-4 space-y-2">
-                  {item.points.map((point) => <Bullet key={point}>{point}</Bullet>)}
+                  {item.points.map((point, index) => <Bullet key={index}>{point}</Bullet>)}
                 </ul>
               ) : null}
             </div>

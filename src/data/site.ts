@@ -33,6 +33,7 @@ export type EducationItem = {
   period: string
   logo: string
   focus: readonly string[]
+  labHref?: string
 }
 
 export type Highlight = {
@@ -161,8 +162,9 @@ export const education = [
     logo: '/ntust.png',
     focus: [
       'Third-year CSIE student with GPA 4.20/4.30, ranked 3rd in the department (Top 4%).',
-      'At NLP Lab (Prof. Kuan-Yu Chen), researching Multimodal Emotion Recognition in Conversations.',
+      'NLP Lab (Prof. Kuan-Yu Chen), researching Multimodal Emotion Recognition in Conversations.',
     ],
+    labHref: 'https://nlp.csie.ntust.edu.tw/',
   },
 ] satisfies readonly EducationItem[]
 
