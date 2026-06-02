@@ -156,7 +156,7 @@ function Header({ route, theme, onNavigate, onSwitchLocale, onToggleTheme }: { r
           return (
             <a
               aria-label={social.label}
-              className="rounded-full p-2 text-zinc-500 transition duration-300 hover:bg-white/5 hover:text-violet-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500/70"
+              className="header-icon-button rounded-full p-2 text-zinc-500 transition duration-300 hover:bg-violet-500/10 hover:text-violet-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500/70"
               href={social.href}
               key={social.label}
               rel="noreferrer"
@@ -181,7 +181,7 @@ function Header({ route, theme, onNavigate, onSwitchLocale, onToggleTheme }: { r
         </div>
         <button
           aria-label={theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'}
-          className="rounded-full p-2 text-zinc-500 transition duration-300 hover:bg-white/5 hover:text-zinc-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500/70"
+          className="header-icon-button rounded-full p-2 text-zinc-500 transition duration-300 hover:bg-violet-500/10 hover:text-zinc-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500/70"
           onClick={onToggleTheme}
           type="button"
         >
@@ -382,7 +382,7 @@ function Timeline({ items }: { items: Array<{ title: string; subtitle: string; p
 
 function Logo({ src, alt }: { src: string; alt: string }) {
   return (
-    <div className="logo-frame grid size-11 shrink-0 place-items-center overflow-hidden rounded-2xl border border-white/10 bg-white p-1 shadow-lg shadow-black/20">
+    <div className="grid size-11 shrink-0 place-items-center overflow-hidden rounded-2xl border border-white/10 bg-white p-1 shadow-lg shadow-black/20">
       <img alt={`${alt} logo`} className="max-h-full max-w-full object-contain" src={src} />
     </div>
   )
@@ -431,7 +431,7 @@ function BlogPage({ locale, onNavigate }: { locale: Locale; onNavigate: (route: 
                 <h2 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-100 group-hover:text-violet-200">{post.title}</h2>
                 {post.excerpt ? <p className="mt-3 max-w-xl text-sm leading-7 text-zinc-400">{post.excerpt}</p> : null}
                 <div className="mt-4 flex flex-wrap gap-2">
-                  {post.tags.map((tag) => <Badge key={tag} variant="secondary">{tag}</Badge>)}
+                  {post.tags.map((tag) => <Badge className="post-tag" key={tag} variant="secondary">{tag}</Badge>)}
                 </div>
               </div>
               <span className="inline-flex items-center gap-2 text-sm text-zinc-600 transition group-hover:translate-x-1 group-hover:text-violet-300">
@@ -497,7 +497,7 @@ function BlogPostPage({ locale, slug, onNavigate }: { locale: Locale; slug: stri
         {post.excerpt ? <p className="mt-6 max-w-xl text-base leading-8 text-zinc-400">{post.excerpt}</p> : null}
         <div className="mt-6 flex flex-wrap items-center gap-3">
           <p className="font-mono text-xs uppercase tracking-[0.18em] text-zinc-600">{post.date} · {post.readingTime}</p>
-          {post.tags.map((tag) => <Badge key={tag} variant="secondary">{tag}</Badge>)}
+          {post.tags.map((tag) => <Badge className="post-tag" key={tag} variant="secondary">{tag}</Badge>)}
         </div>
         {post.image ? <img alt="" className="mx-auto mt-8 max-h-[28rem] max-w-full rounded-3xl border border-white/10 object-contain shadow-2xl shadow-black/20" src={post.image} /> : null}
       </header>

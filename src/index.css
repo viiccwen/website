@@ -148,7 +148,8 @@ a {
   background-color: rgba(255, 255, 255, 0.72) !important;
 }
 
-.theme-light .logo-frame {
+.theme-light .header-icon-button,
+.theme-light .post-tag {
   background-color: transparent !important;
 }
 
