@@ -41,16 +41,21 @@ a {
 }
 
 [data-reveal] {
-  opacity: 1;
-  transform: none;
-  filter: none;
-  transition: none;
+  opacity: 0;
+  transform: translate3d(0, 1.15rem, 0) scale(0.992);
+  filter: blur(10px);
+  transition:
+    opacity 720ms cubic-bezier(0.22, 1, 0.36, 1),
+    transform 720ms cubic-bezier(0.22, 1, 0.36, 1),
+    filter 720ms cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform, filter;
 }
 
 [data-reveal].is-visible {
   opacity: 1;
-  transform: none;
-  filter: none;
+  transform: translate3d(0, 0, 0) scale(1);
+  filter: blur(0);
 }
 
 @media (prefers-reduced-motion: reduce) {
