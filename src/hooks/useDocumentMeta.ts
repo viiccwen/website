@@ -2,9 +2,9 @@ import { useEffect } from 'react'
 
 import type { Route } from '@/lib/routes'
 
-const siteTitle = 'Vic Wen'
-const siteDescription = 'Profile and engineering blog of Vic Wen.'
-const blogTitle = 'Vic Wen Blog'
+const siteTitle = 'Vic Wen — Software Engineer & Open Source Contributor'
+const siteDescription = 'Profile and engineering blog of Vic Wen, covering backend engineering, data infrastructure, open source contributions, and technical communities.'
+const blogTitle = 'Vic Wen Blog — Engineering Notes'
 
 function setMeta(name: string, content: string, attribute: 'name' | 'property' = 'name') {
   const selector = `meta[${attribute}="${name}"]`
