@@ -2,12 +2,18 @@ import { useEffect } from 'react'
 
 export function useRevealEffect(dependency: unknown) {
   useEffect(() => {
-    const revealItems = Array.from(document.querySelectorAll<HTMLElement>('[data-reveal]'))
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
     if (prefersReducedMotion || !('IntersectionObserver' in window)) {
-      revealItems.forEach((item) => item.classList.add('is-visible'))
-      return
+      const showRevealItems = () => {
+        document.querySelectorAll<HTMLElement>('[data-reveal]').forEach((item) => item.classList.add('is-visible'))
+      }
+
+      showRevealItems()
+      const mutationObserver = new MutationObserver(showRevealItems)
+      mutationObserver.observe(document.body, { childList: true, subtree: true })
+
+      return () => mutationObserver.disconnect()
     }
 
     const observer = new IntersectionObserver(
@@ -22,7 +28,18 @@ export function useRevealEffect(dependency: unknown) {
       { rootMargin: '0px 0px -12% 0px', threshold: 0.12 },
     )
 
-    revealItems.forEach((item) => observer.observe(item))
-    return () => observer.disconnect()
+    const observeRevealItems = () => {
+      document.querySelectorAll<HTMLElement>('[data-reveal]:not(.is-visible)').forEach((item) => observer.observe(item))
+    }
+
+    const frame = window.requestAnimationFrame(observeRevealItems)
+    const mutationObserver = new MutationObserver(observeRevealItems)
+    mutationObserver.observe(document.body, { childList: true, subtree: true })
+
+    return () => {
+      window.cancelAnimationFrame(frame)
+      mutationObserver.disconnect()
+      observer.disconnect()
+    }
   }, [dependency])
 }

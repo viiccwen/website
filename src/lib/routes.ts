@@ -1,5 +1,5 @@
-import { hasBlogPost } from '@/lib/blog'
 import { defaultLocale, isLocale, type Locale } from '@/lib/i18n'
+import { hasBlogPost } from '@/lib/postManifest'
 
 export type Route =
   | { name: 'home'; locale: Locale }

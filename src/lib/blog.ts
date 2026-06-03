@@ -33,10 +33,11 @@ export type BlogPost = {
 }
 
 const postModules = import.meta.glob<string>('../content/posts/*/*.{md,mdx}', {
-  eager: true,
   query: '?raw',
   import: 'default',
 })
+
+let blogPostsPromise: Promise<BlogPost[]> | undefined
 
 function slugFromPath(path: string) {
   return path
@@ -72,10 +73,10 @@ function parseScalar(value: string): string | boolean | string[] {
     return trimmed
       .slice(1, -1)
       .split(',')
-      .map((item) => item.trim().replace(/^['"]|['"]$/g, ''))
+      .map((item) => item.trim().replace(/^[']|[']$/g, '').replace(/^["]|["]$/g, ''))
       .filter(Boolean)
   }
-  return trimmed.replace(/^['"]|['"]$/g, '')
+  return trimmed.replace(/^[']|[']$/g, '').replace(/^["]|["]$/g, '')
 }
 
 function parseFrontmatter(raw: string): { data: BlogFrontmatter; content: string } {
@@ -102,7 +103,7 @@ function parseFrontmatter(raw: string): { data: BlogFrontmatter; content: string
     const list: string[] = []
     while (lines[index + 1]?.startsWith('  - ')) {
       index += 1
-      list.push(lines[index].replace(/^\s*-\s*/, '').trim().replace(/^['"]|['"]$/g, ''))
+      list.push(lines[index].replace(/^\s*-\s*/, '').trim().replace(/^[']|[']$/g, '').replace(/^["]|["]$/g, ''))
     }
     data[key] = list
   }
@@ -168,41 +169,44 @@ function parsePost(path: string, raw: string): BlogPost {
   }
 }
 
-export const blogPosts = Object.entries(postModules)
-  .map(([path, raw]) => parsePost(path, raw))
-  .filter((post) => !post.draft)
-  .sort((a, b) => b.date.localeCompare(a.date))
-
-const postsByLocale = blogPosts.reduce<Record<Locale, BlogPost[]>>(
-  (posts, post) => {
-    posts[post.locale].push(post)
-    return posts
-  },
-  { en: [], 'zh-tw': [] },
-)
-
-const postKey = (locale: Locale, slug: string) => `${locale}/${slug}`
-
-const postsByKey = new Map(blogPosts.map((post) => [postKey(post.locale, post.slug), post]))
-
-export function getBlogPosts(locale: Locale) {
-  return postsByLocale[locale]
+function postPath(locale: Locale, slug: string) {
+  return `../content/posts/${locale}/${slug}.md`
 }
 
-export function getBlogPost(locale: Locale, slug: string) {
-  return postsByKey.get(postKey(locale, slug))
+async function loadPostFromPath(path: string) {
+  const loader = postModules[path]
+  if (!loader) return undefined
+
+  return parsePost(path, await loader())
 }
 
-export function getAdjacentBlogPosts(locale: Locale, slug: string) {
-  const posts = getBlogPosts(locale)
+async function loadBlogPosts() {
+  blogPostsPromise ??= Promise.all(
+    Object.entries(postModules).map(async ([path, loadRaw]) => parsePost(path, await loadRaw())),
+  ).then((posts) => posts.filter((post) => !post.draft).sort((a, b) => b.date.localeCompare(a.date)))
+
+  return blogPostsPromise
+}
+
+export async function getBlogPosts(locale: Locale) {
+  const posts = await loadBlogPosts()
+  return posts.filter((post) => post.locale === locale)
+}
+
+export async function getBlogPost(locale: Locale, slug: string) {
+  const post = await loadPostFromPath(postPath(locale, slug))
+  if (post && !post.draft) return post
+
+  const posts = await loadBlogPosts()
+  return posts.find((post) => post.locale === locale && post.slug === slug)
+}
+
+export async function getAdjacentBlogPosts(locale: Locale, slug: string) {
+  const posts = await getBlogPosts(locale)
   const postIndex = posts.findIndex((post) => post.slug === slug)
 
   return {
     previousPost: postIndex > 0 ? posts[postIndex - 1] : undefined,
     nextPost: postIndex >= 0 && postIndex < posts.length - 1 ? posts[postIndex + 1] : undefined,
   }
-}
-
-export function hasBlogPost(locale: Locale, slug: string) {
-  return postsByKey.has(postKey(locale, slug))
 }
