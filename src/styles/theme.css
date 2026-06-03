@@ -1,0 +1,188 @@
+[data-theme='dark'] {
+  color-scheme: dark;
+  --color-background: #0b0713;
+  --color-foreground: #f8f7ff;
+}
+
+.theme-dark .text-zinc-50,
+.theme-dark .text-zinc-100 {
+  color: #fbfaff !important;
+}
+
+.theme-dark .text-zinc-300 {
+  color: #f0ecff !important;
+}
+
+.theme-dark .text-zinc-400 {
+  color: #ddd6f0 !important;
+}
+
+.theme-dark .text-zinc-500 {
+  color: #beb2d2 !important;
+}
+
+.theme-dark .text-zinc-600 {
+  color: #9f91b7 !important;
+}
+
+.theme-dark .text-violet-200 {
+  color: #ddd6fe !important;
+}
+
+.theme-dark .text-violet-300,
+.theme-dark .text-violet-400 {
+  color: #c4b5fd !important;
+}
+
+.theme-dark .markdown-body,
+.theme-dark .markdown-body p,
+.theme-dark .markdown-body li,
+.theme-dark .markdown-body td {
+  color: #e8e2f6 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.theme-dark .markdown-body strong,
+.theme-dark .markdown-body h1,
+.theme-dark .markdown-body h2,
+.theme-dark .markdown-body h3 {
+  color: #fbfaff !important;
+}
+
+.theme-dark .markdown-body .markdown-codeblock {
+  color: #eee9ff !important;
+}
+
+.theme-dark .markdown-body blockquote {
+  color: #ebe5fb !important;
+}
+
+[data-theme='light'] {
+  color-scheme: light;
+  --color-background: #fbf8ff;
+  --color-foreground: #24153f;
+}
+
+[data-theme='light'] body {
+  background: #fbf8ff;
+}
+
+.theme-light {
+  background: radial-gradient(circle at 70% 10%, rgba(167, 139, 250, 0.18), transparent 30%), #fbf8ff;
+}
+
+.theme-light .text-zinc-50,
+.theme-light .text-zinc-100 {
+  color: #24153f !important;
+}
+
+.theme-light .text-zinc-300,
+.theme-light .text-zinc-400 {
+  color: #5f5275 !important;
+}
+
+.theme-light .text-zinc-500,
+.theme-light .text-zinc-600 {
+  color: #7c6f91 !important;
+}
+
+.theme-light .text-violet-200,
+.theme-light .text-violet-300,
+.theme-light .text-violet-400 {
+  color: #7c3aed !important;
+}
+
+.theme-light [class*='bg-black/'] {
+  background-color: rgba(244, 239, 255, 0.9) !important;
+}
+
+.theme-light [class*='bg-white/'],
+.theme-light [class*='bg-white\['] {
+  background-color: rgba(255, 255, 255, 0.72) !important;
+}
+
+.theme-light .header-icon-button,
+.theme-light .post-tag {
+  background-color: transparent !important;
+}
+
+.theme-light [class*='border-white/'] {
+  border-color: rgba(124, 58, 237, 0.16) !important;
+}
+
+.theme-light [class*='shadow-black'] {
+  --tw-shadow-color: rgb(109 40 217 / 0.12) !important;
+}
+
+.theme-light img.bg-neutral-950 {
+  background-color: #f5f3ff !important;
+}
+
+.theme-light .section-marker {
+  background: linear-gradient(90deg, rgba(124, 58, 237, 0.75), rgba(124, 58, 237, 0)) !important;
+}
+
+.theme-light .markdown-body,
+.theme-light .markdown-body p,
+.theme-light .markdown-body li,
+.theme-light .markdown-body td,
+.theme-light .markdown-body table,
+.theme-light .markdown-body th {
+  color: #4c3f63 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.theme-light .markdown-body strong,
+.theme-light .markdown-body h1,
+.theme-light .markdown-body h2,
+.theme-light .markdown-body h3 {
+  color: #24153f !important;
+}
+
+.theme-light .markdown-body .markdown-codeblock {
+  background-color: #f1ebff !important;
+  border-color: rgba(124, 58, 237, 0.18) !important;
+  color: #2f1a55 !important;
+  box-shadow: 0 18px 48px rgba(109, 40, 217, 0.10) !important;
+}
+
+.theme-light .markdown-body .markdown-codeblock code {
+  color: inherit !important;
+  background: transparent !important;
+}
+
+.theme-light .markdown-body :not(pre) > code {
+  background-color: rgba(124, 58, 237, 0.10) !important;
+  color: #5b21b6 !important;
+}
+
+.theme-light .markdown-body blockquote {
+  background-color: rgba(124, 58, 237, 0.08) !important;
+  border-color: rgba(124, 58, 237, 0.20) !important;
+  color: #4c3f63 !important;
+}
+
+.theme-light .markdown-body table,
+.theme-light .markdown-body th,
+.theme-light .markdown-body td {
+  color: #4c3f63 !important;
+}
+
+.theme-dark .group:hover .group-hover\:text-violet-200,
+.theme-dark .group:focus-within .group-hover\:text-violet-200 {
+  color: #ddd6fe !important;
+}
+
+.theme-dark .group:hover .group-hover\:text-violet-300,
+.theme-dark .group:focus-within .group-hover\:text-violet-300 {
+  color: #c4b5fd !important;
+}
+
+.theme-light .group:hover .group-hover\:text-violet-200,
+.theme-light .group:focus-within .group-hover\:text-violet-200,
+.theme-light .group:hover .group-hover\:text-violet-300,
+.theme-light .group:focus-within .group-hover\:text-violet-300 {
+  color: #7c3aed !important;
+}
