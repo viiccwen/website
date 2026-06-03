@@ -1,38 +1,22 @@
 import { ArrowDown, ArrowRight, ExternalLink, Moon, Sun } from 'lucide-react'
-import type { CSSProperties, ReactNode } from 'react'
-import { useEffect, useMemo, useState } from 'react'
+import type { ComponentType, ReactNode } from 'react'
+import { useMemo, useState } from 'react'
 
 import { MarkdownContent } from '@/components/MarkdownContent'
 import { Badge } from '@/components/ui/badge'
 
 import { education, experience, honors, openSource, profile, socials, talks } from '@/data/site'
-import { getBlogPost, getBlogPosts, hasBlogPost } from '@/lib/blog'
-import { defaultLocale, isLocale, localeLabel, locales, type Locale } from '@/lib/i18n'
+import { getAdjacentBlogPosts, getBlogPost, getBlogPosts, POSTS_PER_PAGE } from '@/lib/blog'
+import { getPreferredTheme, type Theme, useTheme } from '@/hooks/useTheme'
+import { localeLabel, locales, type Locale } from '@/lib/i18n'
 import { messages } from '@/lib/messages'
+import { revealStyle } from '@/lib/reveal'
+import { pathForRoute, routeFromPath, switchLocale, type Route } from '@/lib/routes'
+import { useDocumentMeta } from '@/hooks/useDocumentMeta'
+import { usePopStateRoute } from '@/hooks/usePopStateRoute'
+import { useRevealEffect } from '@/hooks/useReveal'
 
 import './App.css'
-
-const siteTitle = 'Vic Wen — Software Engineer & Open Source Contributor'
-const siteDescription = 'Profile and engineering blog of Vic Wen, covering backend engineering, data infrastructure, open source contributions, and technical communities.'
-const blogTitle = 'Vic Wen Blog — Engineering Notes'
-
-function setMeta(name: string, content: string, attribute: 'name' | 'property' = 'name') {
-  const selector = `meta[${attribute}="${name}"]`
-  let element = document.head.querySelector<HTMLMetaElement>(selector)
-
-  if (!element) {
-    element = document.createElement('meta')
-    element.setAttribute(attribute, name)
-    document.head.appendChild(element)
-  }
-
-  element.content = content
-}
-
-type Route =
-  | { name: 'home'; locale: Locale }
-  | { name: 'blog'; locale: Locale }
-  | { name: 'post'; locale: Locale; slug: string }
 
 function GitHubIcon({ className }: { className?: string }) {
   return (
@@ -50,100 +34,19 @@ function LinkedInIcon({ className }: { className?: string }) {
   )
 }
 
-const iconBySocial: Record<string, React.ComponentType<{ className?: string }>> = {
+const iconBySocial: Record<string, ComponentType<{ className?: string }>> = {
   GitHub: GitHubIcon,
   LinkedIn: LinkedInIcon,
 }
 
-function routeFromPath(): Route {
-  const segments = window.location.pathname.split('/').filter(Boolean)
-
-  if (segments[0] === 'blog') {
-    if (segments[1]) return { name: 'post', locale: defaultLocale, slug: segments[1] }
-    return { name: 'blog', locale: defaultLocale }
-  }
-
-  const [localeCandidate, section, slug] = segments
-  const locale = isLocale(localeCandidate) ? localeCandidate : defaultLocale
-
-  if (section === 'blog') {
-    if (slug) return { name: 'post', locale, slug }
-    return { name: 'blog', locale }
-  }
-
-  return { name: 'home', locale }
-}
-
-function pathForRoute(route: Route) {
-  if (route.name === 'blog') return `/${route.locale}/blog`
-  if (route.name === 'post') return `/${route.locale}/blog/${route.slug}`
-  return `/${route.locale}`
-}
-
-function switchLocale(route: Route, nextLocale: Locale): Route {
-  if (route.name === 'post') {
-    if (hasBlogPost(nextLocale, route.slug)) return { ...route, locale: nextLocale }
-    return { name: 'blog', locale: nextLocale }
-  }
-
-  return { ...route, locale: nextLocale }
-}
-
 function App() {
   const [route, setRoute] = useState<Route>(() => routeFromPath())
-  const [theme, setTheme] = useState<'dark' | 'light'>(() => (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'))
+  const [theme, setTheme] = useState<Theme>(() => getPreferredTheme())
 
-  useEffect(() => {
-    document.documentElement.dataset.theme = theme
-  }, [theme])
-
-  useEffect(() => {
-    const post = route.name === 'post' ? getBlogPost(route.locale, route.slug) : undefined
-    const title = route.name === 'post' && post ? `${post.title} — Vic Wen Blog` : route.name === 'blog' ? blogTitle : siteTitle
-    const description = route.name === 'post' && post?.excerpt ? post.excerpt : siteDescription
-
-    document.documentElement.lang = route.locale === 'zh-tw' ? 'zh-Hant-TW' : 'en'
-    document.title = title
-    setMeta('description', description)
-    setMeta('og:title', title, 'property')
-    setMeta('og:description', description, 'property')
-    setMeta('twitter:title', title)
-    setMeta('twitter:description', description)
-  }, [route])
-
-  useEffect(() => {
-    function handlePopState() {
-      setRoute(routeFromPath())
-    }
-
-    window.addEventListener('popstate', handlePopState)
-    return () => window.removeEventListener('popstate', handlePopState)
-  }, [])
-
-  useEffect(() => {
-    const revealItems = Array.from(document.querySelectorAll<HTMLElement>('[data-reveal]'))
-    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-
-    if (prefersReducedMotion || !('IntersectionObserver' in window)) {
-      revealItems.forEach((item) => item.classList.add('is-visible'))
-      return
-    }
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('is-visible')
-            observer.unobserve(entry.target)
-          }
-        })
-      },
-      { rootMargin: '0px 0px -12% 0px', threshold: 0.12 },
-    )
-
-    revealItems.forEach((item) => observer.observe(item))
-    return () => observer.disconnect()
-  }, [route])
+  useTheme(theme)
+  useDocumentMeta(route)
+  usePopStateRoute(setRoute)
+  useRevealEffect(route)
 
   function navigate(next: Route) {
     window.history.pushState({}, '', pathForRoute(next))
@@ -419,20 +322,14 @@ function Bullet({ children }: { children: ReactNode }) {
   )
 }
 
-function revealStyle(index: number, base = 0, step = 80): CSSProperties {
-  return { '--reveal-delay': `${base + index * step}ms` } as CSSProperties
-}
-
-const postsPerPage = 10
-
 function BlogPage({ locale, onNavigate }: { locale: Locale; onNavigate: (route: Route) => void }) {
   const t = messages[locale]
   const posts = useMemo(() => getBlogPosts(locale), [locale])
   const [pageState, setPageState] = useState<{ locale: Locale; page: number }>({ locale, page: 1 })
-  const pageCount = Math.max(1, Math.ceil(posts.length / postsPerPage))
+  const pageCount = Math.max(1, Math.ceil(posts.length / POSTS_PER_PAGE))
   const page = pageState.locale === locale ? pageState.page : 1
   const currentPage = Math.min(page, pageCount)
-  const visiblePosts = posts.slice((currentPage - 1) * postsPerPage, currentPage * postsPerPage)
+  const visiblePosts = posts.slice((currentPage - 1) * POSTS_PER_PAGE, currentPage * POSTS_PER_PAGE)
 
   return (
     <main>
@@ -500,10 +397,7 @@ function BlogPage({ locale, onNavigate }: { locale: Locale; onNavigate: (route: 
 function BlogPostPage({ locale, slug, onNavigate }: { locale: Locale; slug: string; onNavigate: (route: Route) => void }) {
   const t = messages[locale]
   const post = getBlogPost(locale, slug)
-  const posts = getBlogPosts(locale)
-  const postIndex = posts.findIndex((item) => item.slug === slug)
-  const previousPost = postIndex > 0 ? posts[postIndex - 1] : undefined
-  const nextPost = postIndex >= 0 && postIndex < posts.length - 1 ? posts[postIndex + 1] : undefined
+  const { previousPost, nextPost } = getAdjacentBlogPosts(locale, slug)
 
   if (!post) {
     return (

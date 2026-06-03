@@ -1,5 +1,7 @@
 import { defaultLocale, isLocale, type Locale } from '@/lib/i18n'
 
+export const POSTS_PER_PAGE = 10
+
 export type BlogFrontmatter = {
   title?: string
   excerpt?: string
@@ -8,7 +10,7 @@ export type BlogFrontmatter = {
   published?: string
   category?: string
   featured?: boolean
-  tags?: string[]
+  tags?: readonly string[]
   readingTime?: string
   draft?: boolean
   image?: string
@@ -23,7 +25,7 @@ export type BlogPost = {
   date: string
   category: string
   featured: boolean
-  tags: string[]
+  tags: readonly string[]
   readingTime: string
   draft: boolean
   image?: string
@@ -171,14 +173,36 @@ export const blogPosts = Object.entries(postModules)
   .filter((post) => !post.draft)
   .sort((a, b) => b.date.localeCompare(a.date))
 
+const postsByLocale = blogPosts.reduce<Record<Locale, BlogPost[]>>(
+  (posts, post) => {
+    posts[post.locale].push(post)
+    return posts
+  },
+  { en: [], 'zh-tw': [] },
+)
+
+const postKey = (locale: Locale, slug: string) => `${locale}/${slug}`
+
+const postsByKey = new Map(blogPosts.map((post) => [postKey(post.locale, post.slug), post]))
+
 export function getBlogPosts(locale: Locale) {
-  return blogPosts.filter((post) => post.locale === locale)
+  return postsByLocale[locale]
 }
 
 export function getBlogPost(locale: Locale, slug: string) {
-  return blogPosts.find((post) => post.locale === locale && post.slug === slug)
+  return postsByKey.get(postKey(locale, slug))
+}
+
+export function getAdjacentBlogPosts(locale: Locale, slug: string) {
+  const posts = getBlogPosts(locale)
+  const postIndex = posts.findIndex((post) => post.slug === slug)
+
+  return {
+    previousPost: postIndex > 0 ? posts[postIndex - 1] : undefined,
+    nextPost: postIndex >= 0 && postIndex < posts.length - 1 ? posts[postIndex + 1] : undefined,
+  }
 }
 
 export function hasBlogPost(locale: Locale, slug: string) {
-  return Boolean(getBlogPost(locale, slug))
+  return postsByKey.has(postKey(locale, slug))
 }
