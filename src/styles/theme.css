@@ -50,8 +50,14 @@
   color: #fbfaff !important;
 }
 
-.theme-dark .markdown-body .markdown-codeblock {
+.theme-dark .markdown-body .markdown-codeblock,
+.theme-dark .markdown-body .markdown-codeblock pre,
+.theme-dark .markdown-body .markdown-codeblock code {
   color: #eee9ff !important;
+}
+
+.theme-dark .markdown-body .markdown-codeblock button {
+  color: #ddd6fe !important;
 }
 
 .theme-dark .markdown-body blockquote {
@@ -148,9 +154,21 @@
   box-shadow: 0 18px 48px rgba(109, 40, 217, 0.10) !important;
 }
 
+.theme-light .markdown-body .markdown-codeblock > div {
+  background-color: rgba(255, 255, 255, 0.54) !important;
+  border-color: rgba(124, 58, 237, 0.14) !important;
+}
+
+.theme-light .markdown-body .markdown-codeblock pre,
 .theme-light .markdown-body .markdown-codeblock code {
-  color: inherit !important;
+  color: #2f1a55 !important;
   background: transparent !important;
+}
+
+.theme-light .markdown-body .markdown-codeblock button {
+  background-color: rgba(255, 255, 255, 0.72) !important;
+  border-color: rgba(124, 58, 237, 0.18) !important;
+  color: #5b21b6 !important;
 }
 
 .theme-light .markdown-body :not(pre) > code {

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && cp dist/index.html dist/404.html",
+    "build": "tsc -b && vite build && node scripts/generate-static-assets.mjs && cp dist/index.html dist/404.html",
     "lint": "eslint .",
     "newpost": "node scripts/newpost.mjs",
     "preview": "vite preview"

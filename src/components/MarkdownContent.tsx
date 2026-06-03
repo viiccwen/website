@@ -1,3 +1,5 @@
+import { CodeBlock } from '@/components/CodeBlock'
+
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 
@@ -51,11 +53,7 @@ export function MarkdownContent({ content }: { content: string }) {
 
             return <code className="rounded-md bg-white/5 px-1.5 py-0.5 font-mono text-sm text-violet-200">{children}</code>
           },
-          pre: ({ children }) => (
-            <pre className="markdown-codeblock overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm leading-7 text-zinc-300 [&>code]:block [&>code]:rounded-none [&>code]:bg-transparent [&>code]:p-0 [&>code]:text-inherit">
-              {children}
-            </pre>
-          ),
+          pre: ({ children }) => <CodeBlock>{children}</CodeBlock>,
           hr: () => <hr className="my-10 border-white/10" />,
           table: ({ children }) => <div className="overflow-x-auto rounded-2xl border border-white/10"><table className="w-full text-left text-sm">{children}</table></div>,
           th: ({ children }) => <th className="border-b border-white/10 px-4 py-3 text-zinc-100">{children}</th>,
