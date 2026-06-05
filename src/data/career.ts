@@ -55,15 +55,6 @@ export const education = [
 
 export const openSource = [
   {
-    title: 'Apache Airflow',
-    period: 'Jul 2025 — Present',
-    logo: '/airflow.png',
-    points: [
-      'Optimized UI API request performance with selective auto-refresh, reducing requests by up to 78%.',
-    ],
-    links: [{ label: 'Pull requests', href: 'https://github.com/apache/airflow/pulls?q=is%3Apr+author%3Aviiccwen' }],
-  },
-  {
     title: 'Apache Mahout',
     period: 'Jan 2026 — Present',
     logo: '/mahout.jpg',
@@ -79,10 +70,10 @@ export const openSource = [
     ],
   },
   {
-    title: 'Astronomer Dag-factory',
-    period: 'Jul 2025 — Present',
-    logo: '/astronomer.jpeg',
-    points: ['Simplified scheduling by removing deprecated settings, improving compatibility with newer Airflow versions.'],
-    links: [{ label: 'Pull requests', href: 'https://github.com/astronomer/dag-factory/pulls?q=is%3Apr+author%3Aviiccwen' }],
+    title: 'vLLM',
+    period: 'Jun 2026 — Present',
+    logo: '/vllm.png',
+    points: ['Improved API documentation accuracy for LLM completion outputs.'],
+    links: [{ label: 'Pull requests', href: 'https://github.com/vllm-project/vllm/pulls?q=is%3Apr+author%3Aviiccwen' }],
   },
 ] satisfies readonly OpenSourceItem[]
