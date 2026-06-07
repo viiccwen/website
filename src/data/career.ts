@@ -65,11 +65,11 @@ export const openSource = [
       'Optimized GPU amplitude encoding for CUDA tensors in zero-copy, reducing encoding time by 33%.',
       'Designed automated API documentation plus CI/CD pipelines.',
       'Established multi-language Rust/Python coverage testing infrastructure.',
-      'Contributed 30+ PRs and reviewed 60+ PRs focused on code quality and performance.',
+      'Contributed 35+ PRs and reviewed 70+ PRs focused on code quality and performance.',
     ],
     links: [
-      { label: 'Pull requests', href: 'https://github.com/apache/mahout/pulls?q=is%3Apr+author%3Aviiccwen' },
-      { label: 'Reviews', href: 'https://github.com/apache/mahout/pulls?q=is%3Apr+reviewed-by%3Aviiccwen' },
+      { label: 'Pull requests', href: 'https://github.com/apache/mahout/pulls?q=is%3Apr+is%3Amerged+author%3Aviiccwen' },
+      { label: 'Reviews', href: 'https://github.com/apache/mahout/pulls?q=is%3Apr+reviewed-by%3Aviiccwen+is%3Amerged' },
     ],
   },
   {
@@ -77,6 +77,6 @@ export const openSource = [
     period: 'Jun 2026 — Present',
     logo: '/vllm.png',
     points: ['Improved API documentation accuracy for LLM completion outputs.'],
-    links: [{ label: 'Pull requests', href: 'https://github.com/vllm-project/vllm/pulls?q=is%3Apr+author%3Aviiccwen' }],
+    links: [{ label: 'Pull requests', href: 'https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged+author%3Aviiccwen' }],
   },
 ] satisfies readonly OpenSourceItem[]
