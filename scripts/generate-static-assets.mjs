@@ -110,31 +110,50 @@ function sitemapUrl(url, lastmod, priority = '0.7') {
   return `  <url>\n    <loc>${xmlEscape(`${siteUrl}${url}`)}</loc>${lastmodXml}\n    <priority>${priority}</priority>\n  </url>`
 }
 
-function buildSitemap(posts) {
+function sitemapEntries(posts) {
   const newestByLocale = Object.fromEntries(
     locales.map((locale) => [locale, posts.find((post) => post.locale === locale)?.date]),
   )
 
-  const urls = [
+  return [
     ...locales.flatMap((locale) => [
-      sitemapUrl(`/${locale}`, newestByLocale[locale], locale === defaultLocale ? '1.0' : '0.9'),
-      sitemapUrl(`/${locale}/blog`, newestByLocale[locale], '0.9'),
+      { url: `/${locale}`, lastmod: newestByLocale[locale], priority: locale === defaultLocale ? '1.0' : '0.9' },
+      { url: `/${locale}/blog`, lastmod: newestByLocale[locale], priority: '0.9' },
     ]),
-    ...posts.map((post) => sitemapUrl(post.url, post.date, '0.8')),
+    ...posts.map((post) => ({ url: post.url, lastmod: post.date, priority: '0.8' })),
   ]
+}
+
+function buildSitemap(entries) {
+  const urls = entries.map((entry) => sitemapUrl(entry.url, entry.lastmod, entry.priority))
 
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join('\n')}\n</urlset>\n`
 }
 
+async function writeStaticRouteFallbacks(entries) {
+  const indexHtml = await readFile(path.join(distRoot, 'index.html'), 'utf8')
+
+  await Promise.all(entries.map(async ({ url }) => {
+    const route = url.replace(/^\//, '')
+    const routeDir = path.join(distRoot, route)
+
+    await mkdir(routeDir, { recursive: true })
+    await writeFile(path.join(routeDir, 'index.html'), indexHtml)
+    await writeFile(path.join(distRoot, `${route}.html`), indexHtml)
+  }))
+}
+
 async function main() {
   const posts = await loadPosts()
+  const entries = sitemapEntries(posts)
   await mkdir(distRoot, { recursive: true })
-  await writeFile(path.join(distRoot, 'sitemap.xml'), buildSitemap(posts))
+  await writeFile(path.join(distRoot, 'sitemap.xml'), buildSitemap(entries))
+  await writeStaticRouteFallbacks(entries)
   await writeFile(
     path.join(distRoot, 'search-index.json'),
     `${JSON.stringify({ generatedAt: new Date().toISOString(), siteUrl, posts }, null, 2)}\n`,
   )
-  console.log(`Generated sitemap.xml and search-index.json for ${posts.length} posts`)
+  console.log(`Generated sitemap.xml, ${entries.length} static route fallbacks, and search-index.json for ${posts.length} posts`)
 }
 
 main().catch((error) => {
