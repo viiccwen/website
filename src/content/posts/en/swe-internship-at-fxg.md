@@ -43,17 +43,17 @@ What I learned most during this stage was **the communication and analytical abi
 
 ### Middle stage
 
-After wrapping up the early project, I moved on to help with the Data Team's infrastructure. That included adopting ClickHouse (OLAP) as the database to reduce storage costs and improve query speed, and using Apache Airflow as the automation scheduling platform. From there, I started designing and implementing many projects on top of that foundation, working with a lot of data, SQL design, and performance tuning. It also made me realize how interesting data work can be, so this period was a genuinely fun experience.
+After wrapping up the early project, I moved on to help with the Data Team's infrastructure. That included adopting ClickHouse (OLAP) as the database to reduce storage costs and improve query speed. From there, I started designing and implementing many projects on top of that foundation, working with a lot of data, SQL design, and performance tuning. It also made me realize how interesting data work can be, so this period was a genuinely fun experience.
 
-Because I had no prior familiarity with ClickHouse or Apache Airflow, this also became the entry point that led me into the 2025 iThome Ironman challenge ([ClickHouse Series: From Database Internals to Software Practice](https://ithelp.ithome.com.tw/users/20168031/ironman/8221)) and into open source.
+Because I had no prior familiarity with ClickHouse, this also became the entry point that led me into the 2025 iThome Ironman challenge ([ClickHouse Series: From Database Internals to Software Practice](https://ithelp.ithome.com.tw/users/20168031/ironman/8221)) and into open source.
 
-There was one small twist in the middle: since I was kind of winging it, my early architecture did not consider extensibility. As a result, the business logic and Airflow lived in the same repo, which made the project grow huge and caused package conflicts. So I spent a week researching and redesigning the architecture (there were surprisingly few examples online, QQ). In the end, I used `DockerOperator` as the task runtime, split the business logic into separate repos, wrapped each one as an image, and combined that with a CLI interface and CI/CD for automated version updates. That improved readability and maintainability a lot, and I am still pretty proud of it.
+There was one small twist in the middle: since I was kind of winging it, my early architecture did not consider extensibility. As a result, the business logic and scheduling configuration lived in the same repo, which made the project grow huge and caused package conflicts. So I spent a week researching and redesigning the architecture (there were surprisingly few examples online, QQ). In the end, I split the business logic into separate repos, wrapped each one as an image, and combined that with a CLI interface and CI/CD for automated version updates. That improved readability and maintainability a lot, and I am still pretty proud of it.
 
 I also care a lot about the software development process, testing, and documentation. A project without policies will absolutely become a disaster. Back then, a new grad joined my project, and good docs helped them get up to speed quickly while keeping the team moving efficiently. That made me pretty happy.
 
 There were also some weird upper-level situations during this stage that slowed down development, forced us to take a long detour to ship features, and gradually made the system less stable. But that was not really my problem, so I could not do much about it.
 
-What I learned most during this stage was **architecture design, SQL writing and optimization, and how to use Airflow / ClickHouse**.
+What I learned most during this stage was **architecture design, SQL writing and optimization, and how to use ClickHouse**.
 
 ### Later stage
 

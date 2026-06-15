@@ -19,10 +19,7 @@ lang: 'zh-tw'
 
 在那段時間，我其實和多數人一樣，嘗試用許多方式提升自己：維持系排、做 side project、累積相關領域知識，甚至也參與過技術社群與年會分享。但現實是，在投遞了一封又一封履歷之後，仍然只收到滿滿的 reject。那種感覺其實超級挫折，好像你明明已經做了很多，但總感覺沒有任何效果。
 
-接觸到開源是來自於我在前一份實習中接觸到 [Apache Airflow](https://github.com/apache/airflow)（當時還沒跑到源來適你）。當時我發現了一個 bug，一開始其實也只是想像多數人一樣，開個 issue 等待回覆。但後來我開始好奇：「為什麼會有這個問題？」於是我試著自己閱讀 source code、搭配 AI 找出問題的來源，最後提交了一個 pull request，並且被成功 merge。後面也陸陸續續在 [dag-factory](https://github.com/astronomer/dag-factory/) 發了數個 PR，甚至包含 Breaking Change（非常刺激）。
-
-<img src="https://ithelp.ithome.com.tw/upload/images/20230922/20140477Pnk77E7SOd.png" width="50%" style="display: block; margin: 0 auto;" />
-
+真正開始接觸開源，是來自於前一份實習中遇到的一個 bug。一開始其實也只是想像多數人一樣，開個 issue 等待回覆。但後來我開始好奇：「為什麼會有這個問題？」於是我試著自己閱讀 source code、搭配 AI 找出問題的來源，最後提交了一個 pull request，並且被成功 merge。
 
 開源讓我第一次感受到，自己不只是單純使用技術的人，而是可以參與其中、甚至對這個世界產生一點點影響的人 🤏。也正是從那時候開始，我開始重新思考：**也許我可以走一條不一樣的路**。
 

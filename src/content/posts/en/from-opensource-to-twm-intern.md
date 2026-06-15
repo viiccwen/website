@@ -19,9 +19,7 @@ But as the title suggests, I ended up taking a very different route. It was roug
 
 At that time, I was trying everything most students try: keeping my GPA up, building side projects, learning relevant technologies, and even joining communities and speaking at events. But the reality was simple: after sending application after application, I was still getting mostly rejections. It was frustrating. You feel like you are doing a lot, but none of it seems to turn into actual opportunities.
 
-My path into open source started during a previous internship, where I first worked with [Apache Airflow](https://github.com/apache/airflow). At first, I found a bug and thought I would do what most people do: open an issue and wait for someone else to respond. But then I became curious. Why did the bug happen in the first place? So I started reading the source code, used AI to help me narrow down the cause, and eventually submitted a pull request that got merged. After that, I also contributed several PRs to [dag-factory](https://github.com/astronomer/dag-factory/), including one that involved a breaking change.
-
-<img src="https://ithelp.ithome.com.tw/upload/images/20230922/20140477Pnk77E7SOd.png" width="50%" style="display: block; margin: 0 auto;" />
+My path into open source started during a previous internship, where I ran into a bug and thought I would do what most people do: open an issue and wait for someone else to respond. But then I became curious. Why did the bug happen in the first place? So I started reading the source code, used AI to help me narrow down the cause, and eventually submitted a pull request that got merged.
 
 That was the first time I truly felt that I was not just someone using technology. I could actually participate in it, and maybe even leave a small mark on the world. That experience made me rethink everything. **Maybe I did not have to follow the usual path after all.**
 

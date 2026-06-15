@@ -27,7 +27,6 @@ export const experience = [
       'Optimized backend transaction merging with Kafka, achieving 3× throughput improvement and resolving transaction ordering issues.',
       'Eliminated N+1 queries in the alerting system, improving system response time from 30s to 10s.',
       'Migrated data storage to ClickHouse, cutting storage costs by 90% from 400GB to 40GB.',
-      "Designed 20+ ETL pipelines using Apache Airflow, reducing the data team's preprocessing workload by 20 hours per month.",
     ],
   },
   {
