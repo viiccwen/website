@@ -2,6 +2,13 @@ import type { EducationItem, ExperienceItem, OpenSourceItem } from './types'
 
 export const experience = [
   {
+    company: 'Microsoft',
+    role: 'Research Development Intern',
+    period: 'Jul 2026 — Present',
+    logo: '/microsoft.svg',
+    points: [],
+  },
+  {
     company: 'Google Summer of Code',
     role: 'Mentee',
     period: 'May 2026 — Aug 2026',
@@ -11,7 +18,7 @@ export const experience = [
   {
     company: 'Taiwan Mobile',
     role: 'Software Engineer Internship',
-    period: 'Mar 2026 — Present',
+    period: 'Mar 2026 — Jul 2026',
     logo: '/twm.webp',
     points: [
       'Built an ML/LLM-powered pipeline with vLLM to detect scam websites and automate review workflows.',
