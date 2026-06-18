@@ -3,7 +3,7 @@ import type { EducationItem, ExperienceItem, OpenSourceItem } from './types'
 export const experience = [
   {
     company: 'Microsoft',
-    role: 'Research Development Intern',
+    role: 'Research and Development Intern - CSU',
     period: 'Jul 2026 — Present',
     logo: '/microsoft.svg',
     points: [],
@@ -17,7 +17,7 @@ export const experience = [
   },
   {
     company: 'Taiwan Mobile',
-    role: 'Software Engineer Internship',
+    role: 'Software Engineer Intern',
     period: 'Mar 2026 — Jul 2026',
     logo: '/twm.webp',
     points: [
@@ -27,7 +27,7 @@ export const experience = [
   },
   {
     company: 'Fantasy X Games',
-    role: 'Software Engineer Internship',
+    role: 'Software Engineer Intern',
     period: 'Jul 2025 — Feb 2026',
     logo: '/fxgames.png',
     points: [
@@ -71,7 +71,7 @@ export const openSource = [
       'Optimized GPU amplitude encoding for CUDA tensors in zero-copy, reducing encoding time by 33%.',
       'Designed automated API documentation plus CI/CD pipelines.',
       'Established multi-language Rust/Python coverage testing infrastructure.',
-      'Contributed 35+ PRs and reviewed 70+ PRs focused on code quality and performance.',
+      'Contributed 40+ PRs and reviewed 70+ PRs focused on code quality and performance.',
     ],
     links: [
       { label: 'Pull requests', href: 'https://github.com/apache/mahout/pulls?q=is%3Apr+is%3Amerged+author%3Aviiccwen' },
