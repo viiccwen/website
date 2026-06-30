@@ -3,7 +3,7 @@ import type { EducationItem, ExperienceItem, OpenSourceItem } from './types'
 export const experience = [
   {
     company: 'Microsoft',
-    role: 'Research and Development Intern - CSU',
+    role: 'Research and Development Intern',
     period: 'Jul 2026 — Present',
     logo: '/microsoft.svg',
     points: [],
