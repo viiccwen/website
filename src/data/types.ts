@@ -16,6 +16,7 @@ export type ExperienceItem = {
   role: string
   period: string
   logo: string
+  href?: string
   points: readonly string[]
 }
 

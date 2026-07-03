@@ -22,6 +22,8 @@ export function HomePage() {
           subtitle: item.role,
           period: item.period,
           logo: item.logo,
+          href: item.href,
+          fullItemHref: true,
           points: item.points,
         }))} />
       </Section>

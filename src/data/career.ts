@@ -6,6 +6,7 @@ export const experience = [
     role: 'Research and Development Intern',
     period: 'Jul 2026 — Present',
     logo: '/microsoft.svg',
+    href: 'https://www.microsoft.com/',
     points: [],
   },
   {
@@ -13,6 +14,7 @@ export const experience = [
     role: 'Co-Founder & CTO',
     period: 'May 2026 — Present',
     logo: '/fearyn.png',
+    href: 'https://fearyn.com/',
     points: ['Startup by NTUST CS & NTNU ME students.', 'Collaborate with TAIVS Mechanical Workshop.'],
   },
   {
@@ -20,6 +22,7 @@ export const experience = [
     role: 'Mentee',
     period: 'May 2026 — Aug 2026',
     logo: '/gsoc-icon.png',
+    href: 'https://summerofcode.withgoogle.com/',
     points: ['Contributing to the automated API documentation pipeline for Apache Mahout.'],
   },
   {
@@ -27,6 +30,7 @@ export const experience = [
     role: 'Software Engineer Intern',
     period: 'Mar 2026 — Jul 2026',
     logo: '/twm.webp',
+    href: 'https://www.taiwanmobile.com/',
     points: [
       'Built an ML/LLM-powered pipeline with vLLM to detect scam websites and automate review workflows.',
       'Designed architecture with Kafka and RabbitMQ to improve reliability, scalability, and service boundaries.',
@@ -48,6 +52,7 @@ export const experience = [
     role: 'Cyber Security Internship',
     period: 'Mar 2024 — Jul 2024',
     logo: '/kiwissec.png',
+    href: 'https://kiwissec.com/',
     points: [
       'Used PHP, JavaScript, MySQL, and Burp Suite to design real-world web application vulnerabilities and attack scenarios.',
       'Developed 5+ entry-to-intermediate web penetration testing courses with hands-on labs.',
