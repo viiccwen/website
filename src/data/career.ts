@@ -13,7 +13,7 @@ export const experience = [
     role: 'Co-Founder & CTO',
     period: 'May 2026 — Present',
     logo: '/fearyn.png',
-    points: ['Startup by NTUST CS & NTUT ME students.', 'Collaborate with TAIVS Mechanical Workshop.'],
+    points: ['Startup by NTUST CS & NTNU ME students.', 'Collaborate with TAIVS Mechanical Workshop.'],
   },
   {
     company: 'Google Summer of Code',
