@@ -37,6 +37,15 @@ export type OpenSourceItem = {
   links: readonly SocialLink[]
 }
 
+export type ProjectItem = {
+  title: string
+  description: string
+  period: string
+  logo: string
+  points: readonly string[]
+  href?: string
+}
+
 export type Honor = {
   title: string
   subtitle: string

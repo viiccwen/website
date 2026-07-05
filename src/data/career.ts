@@ -1,4 +1,4 @@
-import type { EducationItem, ExperienceItem, OpenSourceItem } from './types'
+import type { EducationItem, ExperienceItem, OpenSourceItem, ProjectItem } from './types'
 
 export const experience = [
   {
@@ -73,6 +73,20 @@ export const education = [
     labHref: 'https://nlp.csie.ntust.edu.tw/',
   },
 ] satisfies readonly EducationItem[]
+
+export const projects = [
+  {
+    title: 'NTUAI - Ian Agent',
+    description: "Maintainer",
+    period: 'Jul. 2026 - Present',
+    logo: '/ian.webp',
+    points: [
+      "Integrated multiple messaging platforms to provide 24/7 intelligent support as Taiwan's first multi-platform AI Agent built by a student club.",
+      'Built the testing, evaluation, observability, and CI/CD pipelines for the agent platform.',
+      'Served 500+ users and significantly reduced administrative workload for staff.',
+    ],
+  },
+] satisfies readonly ProjectItem[]
 
 export const openSource = [
   {
