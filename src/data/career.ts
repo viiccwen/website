@@ -80,6 +80,7 @@ export const projects = [
     description: "Maintainer",
     period: 'Jul. 2026 - Present',
     logo: '/ian.webp',
+    href: 'https://github.com/ntuaiclub/ian',
     points: [
       "Integrated multiple messaging platforms to provide 24/7 intelligent support as Taiwan's first multi-platform AI Agent built by a student club.",
       'Built the testing, evaluation, observability, and CI/CD pipelines for the agent platform.',

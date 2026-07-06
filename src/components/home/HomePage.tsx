@@ -61,6 +61,8 @@ export function HomePage() {
           subtitle: item.description,
           period: item.period,
           logo: item.logo,
+          href: item.href,
+          fullItemHref: Boolean(item.href),
           points: item.points,
         }))} />
       </Section>
