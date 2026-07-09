@@ -47,17 +47,6 @@ export const experience = [
       'Migrated data storage to ClickHouse, cutting storage costs by 90% from 400GB to 40GB.',
     ],
   },
-  {
-    company: 'Kiwis Security',
-    role: 'Cyber Security Internship',
-    period: 'Mar 2024 — Jul 2024',
-    logo: '/kiwissec.png',
-    href: 'https://kiwissec.com/',
-    points: [
-      'Used PHP, JavaScript, MySQL, and Burp Suite to design real-world web application vulnerabilities and attack scenarios.',
-      'Developed 5+ entry-to-intermediate web penetration testing courses with hands-on labs.',
-    ],
-  },
 ] satisfies readonly ExperienceItem[]
 
 export const education = [
@@ -91,7 +80,7 @@ export const projects = [
 
 export const openSource = [
   {
-    title: 'Apache Mahout',
+    title: 'Apache Mahout - Committer',
     period: 'Jan 2026 — Present',
     logo: '/mahout.jpg',
     points: [
@@ -106,7 +95,7 @@ export const openSource = [
     ],
   },
   {
-    title: 'vLLM',
+    title: 'vLLM - Contributor',
     period: 'Jun 2026 — Present',
     logo: '/vllm.png',
     points: ['Improved API documentation accuracy for LLM completion outputs.'],
