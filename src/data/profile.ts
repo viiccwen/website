@@ -11,5 +11,6 @@ export const profile = {
 
 export const socials = [
   { label: 'GitHub', href: 'https://github.com/viiccwen' },
+  { label: 'Email', href: 'mailto:vicwen@apache.org' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/viiccwen/' },
 ] satisfies readonly SocialLink[]

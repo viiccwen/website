@@ -1,4 +1,4 @@
-import { ExternalLink, Moon, Sun } from 'lucide-react'
+import { ExternalLink, Mail, Moon, Sun } from 'lucide-react'
 import type { ComponentType } from 'react'
 
 import { socials } from '@/data/site'
@@ -26,6 +26,7 @@ function LinkedInIcon({ className }: { className?: string }) {
 
 const iconBySocial: Record<string, ComponentType<{ className?: string }>> = {
   GitHub: GitHubIcon,
+  Email: Mail,
   LinkedIn: LinkedInIcon,
 }
 
@@ -43,7 +44,7 @@ export function AppHeader({ route, theme, onNavigate, onSwitchLocale, onToggleTh
         </button>
       </nav>
       <div className="flex items-center gap-1">
-        {socials.filter((social) => social.label === 'GitHub' || social.label === 'LinkedIn').map((social) => {
+        {socials.filter((social) => social.label === 'GitHub' || social.label === 'Email' || social.label === 'LinkedIn').map((social) => {
           const Icon = iconBySocial[social.label] ?? ExternalLink
           return (
             <a
