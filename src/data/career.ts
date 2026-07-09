@@ -87,7 +87,7 @@ export const openSource = [
       'Optimized GPU amplitude encoding for CUDA tensors in zero-copy, reducing encoding time by 33%.',
       'Designed automated API documentation plus CI/CD pipelines.',
       'Established multi-language Rust/Python coverage testing infrastructure.',
-      'Contributed 40+ PRs and reviewed 70+ PRs focused on code quality and performance.',
+      'Served as apache committer with 40+ merged PRs and 70+ reviews'
     ],
     links: [
       { label: 'Pull requests', href: 'https://github.com/apache/mahout/pulls?q=is%3Apr+is%3Amerged+author%3Aviiccwen' },
