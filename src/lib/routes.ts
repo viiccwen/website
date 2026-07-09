@@ -1,4 +1,4 @@
-import { defaultLocale, isLocale, type Locale } from '@/lib/i18n'
+import { getPreferredLocale, isLocale, type Locale } from '@/lib/i18n'
 import { hasBlogPost } from '@/lib/postManifest'
 
 export type Route =
@@ -7,15 +7,16 @@ export type Route =
   | { name: 'post'; locale: Locale; slug: string }
 
 export function routeFromPath(pathname = window.location.pathname): Route {
+  const preferredLocale = getPreferredLocale()
   const segments = pathname.split('/').filter(Boolean)
 
   if (segments[0] === 'blog') {
-    if (segments[1]) return { name: 'post', locale: defaultLocale, slug: segments[1] }
-    return { name: 'blog', locale: defaultLocale }
+    if (segments[1]) return { name: 'post', locale: preferredLocale, slug: segments[1] }
+    return { name: 'blog', locale: preferredLocale }
   }
 
   const [localeCandidate, section, slug] = segments
-  const locale = isLocale(localeCandidate) ? localeCandidate : defaultLocale
+  const locale = isLocale(localeCandidate) ? localeCandidate : preferredLocale
 
   if (section === 'blog') {
     if (slug) return { name: 'post', locale, slug }
