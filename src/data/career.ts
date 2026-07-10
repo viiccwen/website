@@ -87,10 +87,10 @@ export const openSource = [
     ],
   },
   {
-    title: 'vLLM - Contributor',
-    period: 'Jun 2026 — Present',
-    logo: '/vllm.png',
-    points: ['Improved API documentation accuracy for LLM completion outputs.'],
-    links: [{ label: 'Pull requests', href: 'https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged+author%3Aviiccwen' }],
+    title: 'Apache TVM - Contributor',
+    period: 'Jul 2026 — Present',
+    logo: '/tvm.png',
+    points: ['Focused on ONNX-to-Relax model import'],
+    links: [{ label: 'Pull requests', href: 'https://github.com/apache/tvm/pulls?q=is%3Apr+is%3Amerged+author%3Aviiccwen' }],
   },
 ] satisfies readonly OpenSourceItem[]
