@@ -1,5 +1,5 @@
 ---
-title: "Google Summer of Code 2026 申請經歷：台灣居然僅有兩位？"
+title: "Google Summer of Code 2026 申請經歷"
 published: 2026-07-10
 description: ""
 image: "/gsoc-2026.jpg"
