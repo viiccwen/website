@@ -1,5 +1,5 @@
 ---
-title: ClickHouse 系列：批次匯入最佳實踐 (CSV、Parquet、Native Format)
+title: ClickHouse 系列：批次匯入最佳實踐
 published: 2025-08-19
 description: ''
 image: 'https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress'
