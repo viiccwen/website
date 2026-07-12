@@ -19,6 +19,7 @@ export const messages = {
     allPostCount: '{count} posts',
     noSearchResults: 'No matching posts',
     noSearchResultsHint: 'Try another keyword, tag, or topic.',
+    tableOfContents: 'On this page',
   },
   'zh-tw': {
     home: '首頁',
@@ -38,5 +39,6 @@ export const messages = {
     allPostCount: '{count} 篇文章',
     noSearchResults: '沒有符合的文章',
     noSearchResultsHint: '試試其他關鍵字、標籤或主題。',
+    tableOfContents: '本文目錄',
   },
 } satisfies Record<Locale, Record<string, string>>

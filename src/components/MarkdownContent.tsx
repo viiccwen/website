@@ -1,7 +1,16 @@
 import { CodeBlock } from '@/components/CodeBlock'
+import { headingId } from '@/lib/markdownHeadings'
 
+import { isValidElement, type ReactNode } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
+
+function textFromNode(node: ReactNode): string {
+  if (typeof node === 'string' || typeof node === 'number') return String(node)
+  if (Array.isArray(node)) return node.map(textFromNode).join('')
+  if (isValidElement<{ children?: ReactNode }>(node)) return textFromNode(node.props.children)
+  return ''
+}
 
 function widthFromTitle(title?: string | null) {
   const value = title?.match(/width=([^\s]+)/)?.[1]
@@ -15,9 +24,9 @@ export function MarkdownContent({ content }: { content: string }) {
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
         components={{
-          h1: ({ children }) => <h1 className="mt-12 text-4xl font-black tracking-tight text-zinc-50">{children}</h1>,
-          h2: ({ children }) => <h2 className="mt-12 text-2xl font-semibold tracking-tight text-zinc-50">{children}</h2>,
-          h3: ({ children }) => <h3 className="mt-9 text-xl font-semibold tracking-tight text-zinc-100">{children}</h3>,
+          h1: ({ children }) => <h1 className="mt-12 scroll-mt-28 text-4xl font-black tracking-tight text-zinc-50" id={headingId(textFromNode(children))}>{children}</h1>,
+          h2: ({ children }) => <h2 className="mt-12 scroll-mt-28 text-2xl font-semibold tracking-tight text-zinc-50" id={headingId(textFromNode(children))}>{children}</h2>,
+          h3: ({ children }) => <h3 className="mt-9 scroll-mt-28 text-xl font-semibold tracking-tight text-zinc-100" id={headingId(textFromNode(children))}>{children}</h3>,
           p: ({ children }) => <p className="text-base leading-8 text-zinc-400">{children}</p>,
           a: ({ children, href }) => (
             <a

@@ -1,11 +1,13 @@
-import { lazy, Suspense, useEffect, useState } from 'react'
+import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
 
 import { BackToBlogButton } from '@/components/blog/BackToBlogButton'
 import { BlogPostHeader } from '@/components/blog/BlogPostHeader'
+import { ArticleNavigation } from '@/components/blog/ArticleNavigation'
 import { PostPagination } from '@/components/blog/PostPagination'
 import { getAdjacentBlogPosts, getBlogPost, type BlogPost, type BlogPostSummary } from '@/lib/blog'
 import type { Locale } from '@/lib/i18n'
 import { messages } from '@/lib/messages'
+import { extractMarkdownHeadings } from '@/lib/markdownHeadings'
 import { revealStyle } from '@/lib/reveal'
 import type { Route } from '@/lib/routes'
 
@@ -23,6 +25,7 @@ export function BlogPostPage({ locale, slug, onNavigate }: { locale: Locale; slu
   const routeKey = `${locale}/${slug}`
   const [{ key, nextPost, post, previousPost }, setPostState] = useState<BlogPostState>({ key: '' })
   const loaded = key === routeKey
+  const headings = useMemo(() => extractMarkdownHeadings(post?.content ?? ''), [post?.content])
 
   useEffect(() => {
     let cancelled = false
@@ -60,6 +63,7 @@ export function BlogPostPage({ locale, slug, onNavigate }: { locale: Locale; slu
     <main>
       <BackToBlogButton label={t.backBlog} locale={locale} onNavigate={onNavigate} />
       <BlogPostHeader post={post} />
+      <ArticleNavigation headings={headings} label={t.tableOfContents} />
       <div>
         <Suspense fallback={<div aria-hidden="true" className="min-h-40" />}>
           <MarkdownContent content={post.content} />
