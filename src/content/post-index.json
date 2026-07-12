@@ -1,5 +1,19 @@
 [
   {
+    "slug": "learning-from-apache-committer",
+    "locale": "zh-tw",
+    "title": "那些開源的眉眉角角：成為 Apache Committer，我學到了什麼？",
+    "excerpt": "",
+    "date": "2026-07-12",
+    "category": "opensource",
+    "featured": false,
+    "tags": [
+      "opensource"
+    ],
+    "readingTime": "14 分鐘閱讀",
+    "image": "/committer-list.jpg"
+  },
+  {
     "slug": "gsoc-2026-applied-experience",
     "locale": "en",
     "title": "Google Summer of Code 2026 Application Experience: Only Two Students from Taiwan?",
