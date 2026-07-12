@@ -1,6 +1,20 @@
 [
   {
     "slug": "learning-from-apache-committer",
+    "locale": "en",
+    "title": "The Nuances of Open Source: What I Learned from Becoming an Apache Committer",
+    "excerpt": "",
+    "date": "2026-07-12",
+    "category": "opensource",
+    "featured": false,
+    "tags": [
+      "opensource"
+    ],
+    "readingTime": "21 min read",
+    "image": "/committer-list.jpg"
+  },
+  {
+    "slug": "learning-from-apache-committer",
     "locale": "zh-tw",
     "title": "那些開源的眉眉角角：成為 Apache Committer，我學到了什麼？",
     "excerpt": "",
