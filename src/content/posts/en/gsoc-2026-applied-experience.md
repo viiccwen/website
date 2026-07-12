@@ -1,5 +1,5 @@
 ---
-title: "Google Summer of Code 2026 Application Experience: Only Two Students from Taiwan?"
+title: "Google Summer of Code 2026 Application Experience"
 published: 2026-07-10
 description: ""
 image: "/gsoc-2026.jpg"
