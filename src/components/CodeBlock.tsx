@@ -94,17 +94,17 @@ export function CodeBlock({ children }: { children: ReactNode }) {
 
   return (
     <div className="markdown-codeblock group overflow-hidden rounded-2xl border border-white/10 bg-black/45 shadow-2xl shadow-black/20">
-      <div className="flex items-center justify-between gap-3 border-b border-white/10 bg-white/[0.03] px-4 py-2.5">
-        <span className="font-mono text-[0.68rem] font-semibold uppercase tracking-[0.22em] text-zinc-500">
+      <div className="flex h-6 items-center justify-between gap-3 border-b border-white/10 bg-white/[0.03] px-3">
+        <span className="font-mono text-[0.625rem] font-semibold uppercase tracking-[0.2em] text-zinc-500">
           {labelForLanguage(language)}
         </span>
         <button
           aria-label={copyState === 'copied' ? 'Code copied' : 'Copy code'}
-          className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/[0.04] px-3 py-1.5 font-mono text-[0.68rem] uppercase tracking-[0.16em] text-zinc-400 transition hover:border-violet-400/40 hover:text-violet-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-400/60"
+          className="inline-flex h-5 items-center gap-1 rounded px-1 font-mono text-[0.625rem] uppercase leading-none tracking-[0.14em] text-zinc-400 transition hover:text-violet-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-400/60"
           onClick={copyCode}
           type="button"
         >
-          {copyState === 'copied' ? <Check aria-hidden="true" className="size-3.5" /> : <Copy aria-hidden="true" className="size-3.5" />}
+          {copyState === 'copied' ? <Check aria-hidden="true" className="size-3" /> : <Copy aria-hidden="true" className="size-3" />}
           {copyState === 'copied' ? 'Copied' : 'Copy'}
         </button>
       </div>
