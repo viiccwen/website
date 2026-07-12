@@ -3,7 +3,7 @@ import { lazy, Suspense, useEffect, useState } from 'react'
 import { BackToBlogButton } from '@/components/blog/BackToBlogButton'
 import { BlogPostHeader } from '@/components/blog/BlogPostHeader'
 import { PostPagination } from '@/components/blog/PostPagination'
-import { getAdjacentBlogPosts, getBlogPost, type BlogPost } from '@/lib/blog'
+import { getAdjacentBlogPosts, getBlogPost, type BlogPost, type BlogPostSummary } from '@/lib/blog'
 import type { Locale } from '@/lib/i18n'
 import { messages } from '@/lib/messages'
 import { revealStyle } from '@/lib/reveal'
@@ -13,9 +13,9 @@ const MarkdownContent = lazy(() => import('@/components/MarkdownContent').then((
 
 type BlogPostState = {
   key: string
-  nextPost?: BlogPost
+  nextPost?: BlogPostSummary
   post?: BlogPost
-  previousPost?: BlogPost
+  previousPost?: BlogPostSummary
 }
 
 export function BlogPostPage({ locale, slug, onNavigate }: { locale: Locale; slug: string; onNavigate: (route: Route) => void }) {

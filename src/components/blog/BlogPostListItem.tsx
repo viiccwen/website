@@ -1,7 +1,7 @@
 import { ArrowRight } from 'lucide-react'
 
 import { Badge } from '@/components/ui/badge'
-import type { BlogPost } from '@/lib/blog'
+import type { BlogPostSummary } from '@/lib/blog'
 import type { Locale } from '@/lib/i18n'
 import { revealStyle } from '@/lib/reveal'
 import type { Route } from '@/lib/routes'
@@ -10,7 +10,7 @@ type BlogPostListItemProps = {
   index: number
   locale: Locale
   onNavigate: (route: Route) => void
-  post: BlogPost
+  post: BlogPostSummary
   readLabel: string
 }
 

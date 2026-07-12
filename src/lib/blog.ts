@@ -1,4 +1,5 @@
 import { defaultLocale, isLocale, type Locale } from '@/lib/i18n'
+import postIndex from '@/content/post-index.json'
 
 export const POSTS_PER_PAGE = 10
 
@@ -32,12 +33,12 @@ export type BlogPost = {
   content: string
 }
 
+export type BlogPostSummary = Omit<BlogPost, 'content' | 'draft'>
+
 const postModules = import.meta.glob<string>('../content/posts/*/*.{md,mdx}', {
   query: '?raw',
   import: 'default',
 })
-
-let blogPostsPromise: Promise<BlogPost[]> | undefined
 
 function slugFromPath(path: string) {
   return path
@@ -180,25 +181,15 @@ async function loadPostFromPath(path: string) {
   return parsePost(path, await loader())
 }
 
-async function loadBlogPosts() {
-  blogPostsPromise ??= Promise.all(
-    Object.entries(postModules).map(async ([path, loadRaw]) => parsePost(path, await loadRaw())),
-  ).then((posts) => posts.filter((post) => !post.draft).sort((a, b) => b.date.localeCompare(a.date)))
-
-  return blogPostsPromise
-}
-
 export async function getBlogPosts(locale: Locale) {
-  const posts = await loadBlogPosts()
-  return posts.filter((post) => post.locale === locale)
+  return (postIndex as BlogPostSummary[]).filter((post) => post.locale === locale)
 }
 
 export async function getBlogPost(locale: Locale, slug: string) {
   const post = await loadPostFromPath(postPath(locale, slug))
   if (post && !post.draft) return post
 
-  const posts = await loadBlogPosts()
-  return posts.find((post) => post.locale === locale && post.slug === slug)
+  return undefined
 }
 
 export async function getAdjacentBlogPosts(locale: Locale, slug: string) {

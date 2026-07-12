@@ -1,12 +1,12 @@
-import type { BlogPost } from '@/lib/blog'
+import type { BlogPostSummary } from '@/lib/blog'
 import type { Locale } from '@/lib/i18n'
 import type { Route } from '@/lib/routes'
 
 type PostPaginationProps = {
   locale: Locale
-  nextPost?: BlogPost
+  nextPost?: BlogPostSummary
   onNavigate: (route: Route) => void
-  previousPost?: BlogPost
+  previousPost?: BlogPostSummary
 }
 
 export function PostPagination({ locale, nextPost, onNavigate, previousPost }: PostPaginationProps) {

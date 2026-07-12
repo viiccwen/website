@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { BlogPagination } from '@/components/blog/BlogPagination'
 import { BlogPostListItem } from '@/components/blog/BlogPostListItem'
 import { BlogSearch } from '@/components/blog/BlogSearch'
-import { getBlogPosts, POSTS_PER_PAGE, type BlogPost } from '@/lib/blog'
+import { getBlogPosts, POSTS_PER_PAGE, type BlogPostSummary } from '@/lib/blog'
 import type { Locale } from '@/lib/i18n'
 import { messages } from '@/lib/messages'
 import { revealStyle } from '@/lib/reveal'
@@ -13,10 +13,10 @@ function normalizeSearchTerm(value: string) {
   return value.trim().toLocaleLowerCase()
 }
 
-function postMatchesQuery(post: BlogPost, query: string) {
+function postMatchesQuery(post: BlogPostSummary, query: string) {
   if (!query) return true
 
-  const searchableText = [post.title, post.excerpt, post.category, post.date, post.readingTime, ...post.tags, post.content]
+  const searchableText = [post.title, post.excerpt, post.category, post.date, post.readingTime, ...post.tags]
     .join(' ')
     .toLocaleLowerCase()
 
@@ -25,7 +25,7 @@ function postMatchesQuery(post: BlogPost, query: string) {
 
 export function BlogPage({ locale, onNavigate }: { locale: Locale; onNavigate: (route: Route) => void }) {
   const t = messages[locale]
-  const [posts, setPosts] = useState<BlogPost[]>([])
+  const [posts, setPosts] = useState<BlogPostSummary[]>([])
   const [query, setQuery] = useState('')
   const normalizedQuery = normalizeSearchTerm(query)
   const [pageState, setPageState] = useState<{ locale: Locale; page: number; query: string }>({ locale, page: 1, query: '' })

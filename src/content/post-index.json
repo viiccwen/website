@@ -1,0 +1,1434 @@
+[
+  {
+    "slug": "gsoc-2026-applied-experience",
+    "locale": "en",
+    "title": "Google Summer of Code 2026 Application Experience: Only Two Students from Taiwan?",
+    "excerpt": "",
+    "date": "2026-07-10",
+    "category": "Open Source",
+    "featured": false,
+    "tags": [
+      "internship",
+      "opensource"
+    ],
+    "readingTime": "8 min read",
+    "image": "/gsoc-2026.jpg"
+  },
+  {
+    "slug": "gsoc-2026-applied-experience",
+    "locale": "zh-tw",
+    "title": "Google Summer of Code 2026 申請經歷",
+    "excerpt": "",
+    "date": "2026-07-10",
+    "category": "紀錄 & 心得",
+    "featured": false,
+    "tags": [
+      "internship",
+      "opensource"
+    ],
+    "readingTime": "5 分鐘閱讀",
+    "image": "/gsoc-2026.jpg"
+  },
+  {
+    "slug": "about-apache-mahout",
+    "locale": "en",
+    "title": "Introduction to Apache Mahout: From Distributed Machine Learning to Distributed Quantum Computing",
+    "excerpt": "",
+    "date": "2026-06-15",
+    "category": "Open Source",
+    "featured": false,
+    "tags": [
+      "opensource"
+    ],
+    "readingTime": "6 min read",
+    "image": "/mahout-website.jpg"
+  },
+  {
+    "slug": "about-apache-mahout",
+    "locale": "zh-tw",
+    "title": "Apache Mahout 簡介：從分散式機器學習走向分散式量子運算",
+    "excerpt": "",
+    "date": "2026-06-15",
+    "category": "Open Source",
+    "featured": false,
+    "tags": [
+      "opensource"
+    ],
+    "readingTime": "4 分鐘閱讀",
+    "image": "/mahout-website.jpg"
+  },
+  {
+    "slug": "from-opensource-to-twm-intern",
+    "locale": "en",
+    "title": "From GitHub to Offer: How Open Source Helped Me Land an Internship",
+    "excerpt": "",
+    "date": "2026-04-15",
+    "category": "Open Source",
+    "featured": false,
+    "tags": [
+      "internship",
+      "opensource"
+    ],
+    "readingTime": "6 min read",
+    "image": "/posts/from-opensource-to-twm-intern/alc-taipei.webp"
+  },
+  {
+    "slug": "from-opensource-to-twm-intern",
+    "locale": "zh-tw",
+    "title": "從 GitHub 到 Offer：透過開源貢獻拿到實習 Offer",
+    "excerpt": "",
+    "date": "2026-04-15",
+    "category": "開源貢獻",
+    "featured": false,
+    "tags": [
+      "internship",
+      "opensource"
+    ],
+    "readingTime": "4 分鐘閱讀",
+    "image": "/posts/from-opensource-to-twm-intern/alc-taipei.webp"
+  },
+  {
+    "slug": "swe-internship-at-fxg",
+    "locale": "en",
+    "title": "[SWE Internship Recap] My Time at FXG",
+    "excerpt": "",
+    "date": "2026-02-28",
+    "category": "Notes & Reflections",
+    "featured": false,
+    "tags": [
+      "internship"
+    ],
+    "readingTime": "8 min read",
+    "image": "/posts/fxg-internship-at-fxg.jpg"
+  },
+  {
+    "slug": "swe-internship-at-fxg",
+    "locale": "zh-tw",
+    "title": "【SWE 實習回顧】在 FXG 的那些時光",
+    "excerpt": "",
+    "date": "2026-02-28",
+    "category": "紀錄 & 心得",
+    "featured": false,
+    "tags": [
+      "internship"
+    ],
+    "readingTime": "5 分鐘閱讀",
+    "image": "/posts/fxg-internship-at-fxg.jpg"
+  },
+  {
+    "slug": "clickhouse-mergetree-sourcecode-introduction",
+    "locale": "en",
+    "title": "ClickHouse Series: The Six Core Mechanisms of MergeTree from the Source Code",
+    "excerpt": "",
+    "date": "2025-09-03",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman"
+    ],
+    "readingTime": "19 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-mergetree-sourcecode-introduction",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：從原始碼看 MergeTree 的六大核心機制",
+    "excerpt": "",
+    "date": "2025-09-03",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽"
+    ],
+    "readingTime": "8 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-operator-kubernates",
+    "locale": "en",
+    "title": "ClickHouse Series: Deploying a Distributed Architecture on Kubernetes",
+    "excerpt": "",
+    "date": "2025-09-02",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman"
+    ],
+    "readingTime": "12 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-operator-kubernates",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：Kubernetes 部署分散式架構",
+    "excerpt": "",
+    "date": "2025-09-02",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽"
+    ],
+    "readingTime": "4 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-security-rbac",
+    "locale": "en",
+    "title": "ClickHouse Series: Database Security and RBAC Implementation",
+    "excerpt": "",
+    "date": "2025-08-31",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman"
+    ],
+    "readingTime": "4 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-security-rbac",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：資料庫安全性與權限管理（RBAC）實作",
+    "excerpt": "",
+    "date": "2025-08-31",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽"
+    ],
+    "readingTime": "2 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-cloud-vs-self-host",
+    "locale": "en",
+    "title": "ClickHouse Series: ClickHouse Cloud vs. Self-Hosted Deployment",
+    "excerpt": "",
+    "date": "2025-08-30",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman"
+    ],
+    "readingTime": "5 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-cloud-vs-self-host",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：ClickHouse Cloud 與自建部署的優劣比較",
+    "excerpt": "",
+    "date": "2025-08-30",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-bi-integration",
+    "locale": "en",
+    "title": "ClickHouse Series: Integrating with BI Tools (Power BI)",
+    "excerpt": "",
+    "date": "2025-08-29",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman",
+      "Distributed"
+    ],
+    "readingTime": "5 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-bi-integration",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：與 BI 工具整合（Power BI）",
+    "excerpt": "",
+    "date": "2025-08-29",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽",
+      "Distributed"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-select-optimization",
+    "locale": "en",
+    "title": "ClickHouse Series: Query Optimization Case Studies",
+    "excerpt": "",
+    "date": "2025-08-28",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman"
+    ],
+    "readingTime": "7 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-select-optimization",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：查詢優化案例",
+    "excerpt": "",
+    "date": "2025-08-28",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽"
+    ],
+    "readingTime": "4 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-grafana-dashboard",
+    "locale": "en",
+    "title": "ClickHouse Series: Building Visual Monitoring with Grafana Integration",
+    "excerpt": "",
+    "date": "2025-08-27",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman",
+      "Distributed"
+    ],
+    "readingTime": "5 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-grafana-dashboard",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：整合 Grafana 打造可視化監控",
+    "excerpt": "",
+    "date": "2025-08-27",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽",
+      "Distributed"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-schemas-storage-improvement",
+    "locale": "en",
+    "title": "ClickHouse Series: Table Design and Storage Optimization Details",
+    "excerpt": "",
+    "date": "2025-08-26",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman"
+    ],
+    "readingTime": "4 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-schemas-storage-improvement",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：表格設計與儲存優化細節",
+    "excerpt": "",
+    "date": "2025-08-26",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽"
+    ],
+    "readingTime": "2 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-storage-policies",
+    "locale": "en",
+    "title": "ClickHouse Series: Storage Policies and Disk Tiering Strategy",
+    "excerpt": "",
+    "date": "2025-08-25",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman"
+    ],
+    "readingTime": "5 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-storage-policies",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：儲存政策（Storage Policies）與磁碟資源分層策略",
+    "excerpt": "",
+    "date": "2025-08-25",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-ttl-storage-management",
+    "locale": "en",
+    "title": "ClickHouse Series: TTL Data Cleanup and Storage Cost Optimization",
+    "excerpt": "",
+    "date": "2025-08-24",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman"
+    ],
+    "readingTime": "5 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-ttl-storage-management",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：TTL 資料清理與儲存成本優化",
+    "excerpt": "",
+    "date": "2025-08-24",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽"
+    ],
+    "readingTime": "2 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-sampling-statistics",
+    "locale": "en",
+    "title": "ClickHouse Series: Sampling Queries and Statistical Techniques",
+    "excerpt": "",
+    "date": "2025-08-23",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman"
+    ],
+    "readingTime": "5 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-sampling-statistics",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：Sampling 抽樣查詢與統計技術原理",
+    "excerpt": "",
+    "date": "2025-08-23",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽"
+    ],
+    "readingTime": "2 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-projections-optimization",
+    "locale": "en",
+    "title": "ClickHouse Series: Advanced Query Acceleration with Projections",
+    "excerpt": "",
+    "date": "2025-08-22",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman"
+    ],
+    "readingTime": "4 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-projections-optimization",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：Projections 進階查詢加速技術",
+    "excerpt": "",
+    "date": "2025-08-22",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽"
+    ],
+    "readingTime": "2 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-query-log-explain",
+    "locale": "en",
+    "title": "ClickHouse Series: How to Improve Query Performance with system.query_log and EXPLAIN",
+    "excerpt": "",
+    "date": "2025-08-21",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman"
+    ],
+    "readingTime": "6 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-query-log-explain",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：如何提升查詢優化？system.query_log 與 EXPLAIN 用法",
+    "excerpt": "",
+    "date": "2025-08-21",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-external-data-integration",
+    "locale": "en",
+    "title": "ClickHouse Series: Integrating ClickHouse with External Data Sources (PostgreSQL)",
+    "excerpt": "",
+    "date": "2025-08-20",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman",
+      "Distributed"
+    ],
+    "readingTime": "5 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-external-data-integration",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：ClickHouse 與外部資料源整合（PostgreSQL）",
+    "excerpt": "",
+    "date": "2025-08-20",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽",
+      "Distributed"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-batch-import",
+    "locale": "en",
+    "title": "ClickHouse Series: Best Practices for Batch Imports",
+    "excerpt": "",
+    "date": "2025-08-19",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman",
+      "Distributed"
+    ],
+    "readingTime": "5 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-batch-import",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：批次匯入最佳實踐",
+    "excerpt": "",
+    "date": "2025-08-19",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽",
+      "Distributed"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-kafka-data-streaming-pipeline",
+    "locale": "en",
+    "title": "ClickHouse Series: Building a Real-Time Data Streaming Pipeline with Kafka",
+    "excerpt": "",
+    "date": "2025-08-18",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman",
+      "Distributed"
+    ],
+    "readingTime": "9 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-kafka-data-streaming-pipeline",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：與 Kafka 整合打造即時 Data Streaming Pipeline",
+    "excerpt": "",
+    "date": "2025-08-18",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽",
+      "Distributed"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-replication-failover",
+    "locale": "en",
+    "title": "ClickHouse Series: Replicated Tables for High Availability and Zero-Downtime Upgrades",
+    "excerpt": "",
+    "date": "2025-08-17",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman",
+      "Distributed"
+    ],
+    "readingTime": "11 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-replication-failover",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：Replicated Tables 高可用性與零停機升級實作",
+    "excerpt": "",
+    "date": "2025-08-17",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽",
+      "Distributed"
+    ],
+    "readingTime": "6 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-distributed-table-architecture",
+    "locale": "en",
+    "title": "ClickHouse Series: Distributed Tables and Distributed Query Architecture",
+    "excerpt": "",
+    "date": "2025-08-16",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman",
+      "Distributed"
+    ],
+    "readingTime": "8 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-distributed-table-architecture",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：Distributed Table 與分布式查詢架構",
+    "excerpt": "",
+    "date": "2025-08-16",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽",
+      "Distributed"
+    ],
+    "readingTime": "4 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-aggregatingmergetree-aggregation",
+    "locale": "en",
+    "title": "ClickHouse Series: Advanced Real-Time Metrics with AggregatingMergeTree",
+    "excerpt": "",
+    "date": "2025-08-15",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman",
+      "Distributed"
+    ],
+    "readingTime": "8 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-aggregatingmergetree-aggregation",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：AggregatingMergeTree 實時指標統計的進階應用",
+    "excerpt": "",
+    "date": "2025-08-15",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽",
+      "Distributed"
+    ],
+    "readingTime": "4 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-versionedcollapsingmergetree-version-control",
+    "locale": "en",
+    "title": "ClickHouse Series: VersionedCollapsingMergeTree and Data Version Control",
+    "excerpt": "",
+    "date": "2025-08-14",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman"
+    ],
+    "readingTime": "6 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-versionedcollapsingmergetree-version-control",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：VersionedCollapsingMergeTree 與資料版本控制",
+    "excerpt": "",
+    "date": "2025-08-14",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-collapsingmergetree-soft-delete",
+    "locale": "en",
+    "title": "ClickHouse Series: CollapsingMergeTree and Soft Deletes",
+    "excerpt": "",
+    "date": "2025-08-13",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman"
+    ],
+    "readingTime": "6 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-collapsingmergetree-soft-delete",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：CollapsingMergeTree 與邏輯刪除",
+    "excerpt": "",
+    "date": "2025-08-13",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-primary-sorting-key",
+    "locale": "en",
+    "title": "ClickHouse Series: How Primary Keys, Sorting Keys, and Granule Indexes Work",
+    "excerpt": "",
+    "date": "2025-08-12",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman"
+    ],
+    "readingTime": "8 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "fsd-fba-structure",
+    "locale": "en",
+    "title": "Where Are the Files, Anyway? A Frontend Project Structure Guide (FSD and FBA)",
+    "excerpt": "",
+    "date": "2025-08-12",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "Frontend"
+    ],
+    "readingTime": "5 min read",
+    "image": "https://repository-images.githubusercontent.com/328463920/c9bc1654-53a8-4c4d-a5b0-94297d564ee2"
+  },
+  {
+    "slug": "clickhouse-primary-sorting-key",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：Primary Key、Sorting Key 與 Granule 索引運作原理解析",
+    "excerpt": "",
+    "date": "2025-08-12",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽"
+    ],
+    "readingTime": "4 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "fsd-fba-structure",
+    "locale": "zh-tw",
+    "title": "檔案到底在哪裡？前端專案架構介紹（FSD 和 FBA）",
+    "excerpt": "",
+    "date": "2025-08-12",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "Frontend"
+    ],
+    "readingTime": "2 分鐘閱讀",
+    "image": "https://repository-images.githubusercontent.com/328463920/c9bc1654-53a8-4c4d-a5b0-94297d564ee2"
+  },
+  {
+    "slug": "clickhouse-partition-pruning",
+    "locale": "en",
+    "title": "ClickHouse Series: Partitioning Strategy and Partition Pruning, How to Speed Up Big Data Queries",
+    "excerpt": "",
+    "date": "2025-08-11",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman"
+    ],
+    "readingTime": "7 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-partition-pruning",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：分區策略與 Partition Pruning 技術，如何加速大數據查詢",
+    "excerpt": "",
+    "date": "2025-08-11",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽"
+    ],
+    "readingTime": "4 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-materialized-view",
+    "locale": "en",
+    "title": "ClickHouse Series: Materialized Views for Real-Time Aggregation Queries",
+    "excerpt": "",
+    "date": "2025-08-10",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman"
+    ],
+    "readingTime": "6 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-materialized-view",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：Materialized Views 即時聚合查詢",
+    "excerpt": "",
+    "date": "2025-08-10",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-summingmergetree-aggregation",
+    "locale": "en",
+    "title": "ClickHouse Series: SummingMergeTree for Data Aggregation",
+    "excerpt": "",
+    "date": "2025-08-09",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman"
+    ],
+    "readingTime": "6 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-summingmergetree-aggregation",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：SummingMergeTree 進行資料彙總的應用場景",
+    "excerpt": "",
+    "date": "2025-08-09",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-replacingmergetree-deduplication",
+    "locale": "en",
+    "title": "ClickHouse Series: ReplacingMergeTree and Data Deduplication",
+    "excerpt": "",
+    "date": "2025-08-08",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman"
+    ],
+    "readingTime": "6 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-replacingmergetree-deduplication",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：ReplacingMergeTree 與資料去重機制",
+    "excerpt": "",
+    "date": "2025-08-08",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-compression-skipping-index",
+    "locale": "en",
+    "title": "ClickHouse Series: How Compression and Data Skipping Indexes Greatly Speed Up Queries",
+    "excerpt": "",
+    "date": "2025-08-07",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman"
+    ],
+    "readingTime": "7 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-compression-skipping-index",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：壓縮技術與 Data Skipping Indexes 如何大幅加速查詢",
+    "excerpt": "",
+    "date": "2025-08-07",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-mergetree-engine",
+    "locale": "en",
+    "title": "ClickHouse Series: ClickHouse Storage Engine - MergeTree",
+    "excerpt": "",
+    "date": "2025-08-06",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman"
+    ],
+    "readingTime": "7 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-mergetree-engine",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：ClickHouse 儲存引擎 - MergeTree",
+    "excerpt": "",
+    "date": "2025-08-06",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽"
+    ],
+    "readingTime": "4 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-column-row-based-storage",
+    "locale": "en",
+    "title": "ClickHouse Series: Why Does ClickHouse Choose Column-based Storage? The Core Differences Between Row-based and Column-based Storage",
+    "excerpt": "",
+    "date": "2025-08-05",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman"
+    ],
+    "readingTime": "6 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "clickhouse-column-row-based-storage",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：ClickHouse 為什麼選擇 Column-based 儲存？講解 Row-based 與 Column-based 的核心差異",
+    "excerpt": "",
+    "date": "2025-08-05",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "what-is-clickhouse",
+    "locale": "en",
+    "title": "ClickHouse Series: What Is ClickHouse? How It Differs from Traditional OLAP/OLTP Databases",
+    "excerpt": "",
+    "date": "2025-08-04",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "Ironman"
+    ],
+    "readingTime": "4 min read",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "what-is-clickhouse",
+    "locale": "zh-tw",
+    "title": "ClickHouse 系列：ClickHouse 是什麼？與傳統 OLAP/OLTP 資料庫的差異",
+    "excerpt": "",
+    "date": "2025-08-04",
+    "category": "software development",
+    "featured": false,
+    "tags": [
+      "ClickHouse",
+      "Database",
+      "鐵人賽"
+    ],
+    "readingTime": "2 分鐘閱讀",
+    "image": "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
+  },
+  {
+    "slug": "outstanding-young-persons-experience",
+    "locale": "en",
+    "title": "My Application Journey for NTUST Outstanding Youth Awards",
+    "excerpt": "",
+    "date": "2025-08-03",
+    "category": "Records & Reflections",
+    "featured": false,
+    "tags": [
+      "Outstanding Youth"
+    ],
+    "readingTime": "7 min read",
+    "image": "/posts/outstanding-young-persons-experience/image.jpg"
+  },
+  {
+    "slug": "outstanding-young-persons-experience",
+    "locale": "zh-tw",
+    "title": "台科電資學院暨校園傑出青年申請歷程",
+    "excerpt": "",
+    "date": "2025-08-03",
+    "category": "紀錄 & 心得",
+    "featured": false,
+    "tags": [
+      "傑出青年"
+    ],
+    "readingTime": "4 分鐘閱讀",
+    "image": "/posts/outstanding-young-persons-experience/image.jpg"
+  },
+  {
+    "slug": "sitcon-2025-management-leadership",
+    "locale": "en",
+    "title": "SITCON 2025 - From Managing to Leading: Sharing Community Leadership Experience",
+    "excerpt": "",
+    "date": "2025-03-08",
+    "category": "Talks",
+    "featured": false,
+    "tags": [
+      "SITCON",
+      "Leadership"
+    ],
+    "readingTime": "7 min read",
+    "image": "/posts/sitcon-2025-management-leadership.png"
+  },
+  {
+    "slug": "sitcon-2025-management-leadership",
+    "locale": "zh-tw",
+    "title": "SITCON 2025 - 從「經營」到「領導」：社群領導經驗分享",
+    "excerpt": "",
+    "date": "2025-03-08",
+    "category": "演講",
+    "featured": false,
+    "tags": [
+      "SITCON",
+      "Leadership"
+    ],
+    "readingTime": "5 分鐘閱讀",
+    "image": "/posts/sitcon-2025-management-leadership.png"
+  },
+  {
+    "slug": "google-developer-groups-on-campus-apply",
+    "locale": "en",
+    "title": "What Does a Google Student Tech Club Do? How Should I Apply? Let a Current GDG on Campus Lead Walk You Through It!",
+    "excerpt": "",
+    "date": "2025-01-25",
+    "category": "Notes & Reflections",
+    "featured": false,
+    "tags": [
+      "GDGoC"
+    ],
+    "readingTime": "6 min read",
+    "image": "/posts/google-developer-groups-on-campus-apply/google-developer-groups-on-campus-apply.jpg"
+  },
+  {
+    "slug": "google-developer-groups-on-campus-apply",
+    "locale": "zh-tw",
+    "title": "Google 學生社團在做什麼？我該如何申請？ - 讓 GDG on Campus 現任 Lead 帶你了解吧！",
+    "excerpt": "",
+    "date": "2025-01-25",
+    "category": "紀錄 & 心得",
+    "featured": false,
+    "tags": [
+      "GDGoC"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "/posts/google-developer-groups-on-campus-apply/google-developer-groups-on-campus-apply.jpg"
+  },
+  {
+    "slug": "zeabur-deployment-tutorial",
+    "locale": "en",
+    "title": "Zeabur Cloud Deployment Platform: The One-Click Deployment Tool for the Lazy at Heart",
+    "excerpt": "",
+    "date": "2025-01-21",
+    "category": "Tools",
+    "featured": false,
+    "tags": [
+      "Zeabur",
+      "Deployment"
+    ],
+    "readingTime": "3 min read",
+    "image": "/posts/zeabur-deployment-tutorial.png"
+  },
+  {
+    "slug": "zeabur-deployment-tutorial",
+    "locale": "zh-tw",
+    "title": "Zeabur 雲端部署平台：懶人最愛的一鍵部署利器",
+    "excerpt": "",
+    "date": "2025-01-21",
+    "category": "工具",
+    "featured": false,
+    "tags": [
+      "Zeabur",
+      "Deployment"
+    ],
+    "readingTime": "2 分鐘閱讀",
+    "image": "/posts/zeabur-deployment-tutorial.png"
+  },
+  {
+    "slug": "gdsc-2024-17-interaction",
+    "locale": "en",
+    "title": "2024 17-School GDSC Joint Technical Exchange Event",
+    "excerpt": "",
+    "date": "2024-04-28",
+    "category": "Notes & Reflections",
+    "featured": false,
+    "tags": [
+      "GDSC"
+    ],
+    "readingTime": "4 min read",
+    "image": "https://imgur.com/hrASZdh.jpg"
+  },
+  {
+    "slug": "gdsc-2024-17-interaction",
+    "locale": "zh-tw",
+    "title": "2024年17校GDSC聯合技術交流會",
+    "excerpt": "",
+    "date": "2024-04-28",
+    "category": "紀錄 & 心得",
+    "featured": false,
+    "tags": [
+      "GDSC"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "https://imgur.com/hrASZdh.jpg"
+  },
+  {
+    "slug": "computer-repairment-competitor-experience",
+    "locale": "en",
+    "title": "Industrial Technology Competition, Computer Repair Category: My Journey as a Competitor",
+    "excerpt": "",
+    "date": "2024-01-17",
+    "category": "Records & Reflections",
+    "featured": false,
+    "tags": [
+      "Competitor"
+    ],
+    "readingTime": "21 min read",
+    "image": "https://imgur.com/iS0BysX.jpg"
+  },
+  {
+    "slug": "computer-repairment-competitor-experience",
+    "locale": "zh-tw",
+    "title": "工科技藝競賽電腦修護職種：選手歷程",
+    "excerpt": "",
+    "date": "2024-01-17",
+    "category": "紀錄 & 心得",
+    "featured": false,
+    "tags": [
+      "選手"
+    ],
+    "readingTime": "13 分鐘閱讀",
+    "image": "https://imgur.com/iS0BysX.jpg"
+  },
+  {
+    "slug": "2023-recap",
+    "locale": "en",
+    "title": "RECAP: Looking Back on 2023",
+    "excerpt": "",
+    "date": "2024-01-06",
+    "category": "Records & Reflections",
+    "featured": false,
+    "tags": [
+      "RECAP"
+    ],
+    "readingTime": "16 min read",
+    "image": "https://imgur.com/3czi6ln.jpg"
+  },
+  {
+    "slug": "2023-recap",
+    "locale": "zh-tw",
+    "title": "RECAP：回顧2023",
+    "excerpt": "",
+    "date": "2024-01-06",
+    "category": "紀錄 & 心得",
+    "featured": false,
+    "tags": [
+      "RECAP"
+    ],
+    "readingTime": "8 分鐘閱讀",
+    "image": "https://imgur.com/3czi6ln.jpg"
+  },
+  {
+    "slug": "gdsc-northdistrict-13-interaction",
+    "locale": "en",
+    "title": "2023 Northern District 13-School GDSC Joint Exchange Event",
+    "excerpt": "",
+    "date": "2023-12-12",
+    "category": "Notes & Reflections",
+    "featured": false,
+    "tags": [
+      "GDSC"
+    ],
+    "readingTime": "5 min read",
+    "image": "https://imgur.com/W8doQnP.jpg"
+  },
+  {
+    "slug": "gdsc-northdistrict-13-interaction",
+    "locale": "zh-tw",
+    "title": "2023年北區13校GDSC聯合交流會",
+    "excerpt": "",
+    "date": "2023-12-12",
+    "category": "紀錄 & 心得",
+    "featured": false,
+    "tags": [
+      "GDSC"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "https://imgur.com/W8doQnP.jpg"
+  },
+  {
+    "slug": "newtaipeicity-computer-repairment-camp-lecturer-records",
+    "locale": "en",
+    "title": "2023 New Taipei City Computer Repair Golden Hand Training Camp",
+    "excerpt": "",
+    "date": "2023-11-28",
+    "category": "Records & Reflections",
+    "featured": false,
+    "tags": [
+      "Lecturer"
+    ],
+    "readingTime": "6 min read",
+    "image": "https://imgur.com/JKMdFwM.jpg"
+  },
+  {
+    "slug": "newtaipeicity-computer-repairment-camp-lecturer-records",
+    "locale": "zh-tw",
+    "title": "112學年度新北市電腦修護金手培訓營",
+    "excerpt": "",
+    "date": "2023-11-28",
+    "category": "紀錄 & 心得",
+    "featured": false,
+    "tags": [
+      "講師"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "https://imgur.com/JKMdFwM.jpg"
+  },
+  {
+    "slug": "interactclub-taiwan-japan-records",
+    "locale": "en",
+    "title": "2023 Taiwan-Japan Interact Club Exchange Event",
+    "excerpt": "",
+    "date": "2023-08-03",
+    "category": "Notes & Reflections",
+    "featured": false,
+    "tags": [
+      "Interact Club"
+    ],
+    "readingTime": "13 min read",
+    "image": "https://imgur.com/AAZuqrE.jpg"
+  },
+  {
+    "slug": "interactclub-taiwan-japan-records",
+    "locale": "zh-tw",
+    "title": "2023年台日扶少團公益交流活動",
+    "excerpt": "",
+    "date": "2023-08-03",
+    "category": "紀錄 & 心得",
+    "featured": false,
+    "tags": [
+      "扶少團"
+    ],
+    "readingTime": "7 分鐘閱讀",
+    "image": "https://imgur.com/AAZuqrE.jpg"
+  },
+  {
+    "slug": "newtaipeicity-australia-records",
+    "locale": "en",
+    "title": "New Taipei City Overseas Technical Training Program: A Journey to Australia",
+    "excerpt": "",
+    "date": "2023-05-03",
+    "category": "Records & Reflections",
+    "featured": false,
+    "tags": [
+      "Overseas Technical Training"
+    ],
+    "readingTime": "26 min read",
+    "image": "https://imgur.com/zZcw6jW.jpg"
+  },
+  {
+    "slug": "newtaipeicity-australia-records",
+    "locale": "zh-tw",
+    "title": "新北市薦送海外技職研習：澳大利亞之旅",
+    "excerpt": "",
+    "date": "2023-05-03",
+    "category": "紀錄 & 心得",
+    "featured": false,
+    "tags": [
+      "海外技職研習"
+    ],
+    "readingTime": "15 分鐘閱讀",
+    "image": "https://imgur.com/zZcw6jW.jpg"
+  }
+]

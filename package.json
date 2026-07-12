@@ -4,7 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "generate:post-index": "node scripts/generate-post-index.mjs",
+    "predev": "npm run generate:post-index",
     "dev": "vite",
+    "prebuild": "npm run generate:post-index",
     "build": "tsc -b && vite build && node scripts/generate-static-assets.mjs && cp dist/index.html dist/404.html",
     "lint": "eslint .",
     "newpost": "node scripts/newpost.mjs",
