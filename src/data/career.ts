@@ -37,6 +37,7 @@ export const experience = [
       'Optimized backend transaction merging with Kafka, achieving 3× throughput improvement and resolving transaction ordering issues.',
       'Eliminated N+1 queries in the alerting system, improving system response time from 30s to 10s.',
       'Migrated data storage to ClickHouse, cutting storage costs by 90% from 400GB to 40GB.',
+      "Designed 20+ ETL pipelines using Apache Airflow, reducing the data team's preprocessing workload by 20 hours per month.",
     ],
   },
 ] satisfies readonly ExperienceItem[]
@@ -85,6 +86,16 @@ export const openSource = [
       { label: 'Pull requests', href: 'https://github.com/apache/mahout/pulls?q=is%3Apr+is%3Amerged+author%3Aviiccwen' },
       { label: 'Reviews', href: 'https://github.com/apache/mahout/pulls?q=is%3Apr+reviewed-by%3Aviiccwen+is%3Amerged' },
     ],
+  },
+  {
+    title: 'Apache Airflow - Contributor',
+    period: 'Jul 2026 — Present',
+    logo: '/airflow.png',
+    points: [
+      'Optimized UI API request performance with selective auto-refresh, reducing requests by up to 78%.',
+      'Contributed API server features and fixes.',
+    ],
+    links: [{ label: 'Pull requests', href: 'https://github.com/apache/airflow/pulls?q=is%3Apr+is%3Amerged+author%3Aviiccwen' }],
   },
   {
     title: 'Apache TVM - Contributor',
