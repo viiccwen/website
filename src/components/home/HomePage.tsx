@@ -73,7 +73,6 @@ export function HomePage() {
           subtitle: item.subtitle,
           period: item.period,
           logo: item.logo,
-          summary: item.description,
           href: item.href,
           points: [],
         }))} />

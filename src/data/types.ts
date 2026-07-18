@@ -51,7 +51,6 @@ export type Honor = {
   subtitle: string
   period: string
   logo: string
-  description: string
   href?: string
 }
 

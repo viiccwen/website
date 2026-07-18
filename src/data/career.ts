@@ -15,7 +15,7 @@ export const experience = [
     period: 'May 2026 — Aug 2026',
     logo: '/gsoc-icon.png',
     href: 'https://summerofcode.withgoogle.com/',
-    points: ['Contributing to the automated API documentation pipeline for Apache Mahout.'],
+    points: [],
   },
   {
     company: 'Taiwan Mobile',
@@ -23,22 +23,14 @@ export const experience = [
     period: 'Mar 2026 — Jul 2026',
     logo: '/twm.webp',
     href: 'https://www.taiwanmobile.com/',
-    points: [
-      'Built an ML/LLM-powered pipeline with vLLM to detect scam websites and automate review workflows.',
-      'Designed architecture with Kafka and RabbitMQ to improve reliability, scalability, and service boundaries.',
-    ],
+    points: [],
   },
   {
     company: 'Fantasy X Games',
     role: 'Software Engineer Intern',
     period: 'Jul 2025 — Feb 2026',
     logo: '/fxgames.png',
-    points: [
-      'Optimized backend transaction merging with Kafka, achieving 3× throughput improvement and resolving transaction ordering issues.',
-      'Eliminated N+1 queries in the alerting system, improving system response time from 30s to 10s.',
-      'Migrated data storage to ClickHouse, cutting storage costs by 90% from 400GB to 40GB.',
-      "Designed 20+ ETL pipelines using Apache Airflow, reducing the data team's preprocessing workload by 20 hours per month.",
-    ],
+    points: [],
   },
 ] satisfies readonly ExperienceItem[]
 
@@ -76,12 +68,7 @@ export const openSource = [
     title: 'Apache Mahout - Committer',
     period: 'Jan 2026 — Present',
     logo: '/mahout.jpg',
-    points: [
-      'Optimized GPU amplitude encoding for CUDA tensors in zero-copy, reducing encoding time by 33%.',
-      'Designed automated API documentation plus CI/CD pipelines.',
-      'Established multi-language Rust/Python coverage testing infrastructure.',
-      'Served as an apache committer with 40+ merged PRs and 70+ reviews.'
-    ],
+    points: [],
     links: [
       { label: 'Pull requests', href: 'https://github.com/apache/mahout/pulls?q=is%3Apr+is%3Amerged+author%3Aviiccwen' },
       { label: 'Reviews', href: 'https://github.com/apache/mahout/pulls?q=is%3Apr+reviewed-by%3Aviiccwen+is%3Amerged' },
@@ -91,17 +78,14 @@ export const openSource = [
     title: 'Apache Airflow - Contributor',
     period: 'Jul 2026 — Present',
     logo: '/airflow.png',
-    points: [
-      'Optimized UI API request performance with selective auto-refresh, reducing requests by up to 78%.',
-      'Contributed API server features and fixes.',
-    ],
+    points: [],
     links: [{ label: 'Pull requests', href: 'https://github.com/apache/airflow/pulls?q=is%3Apr+is%3Amerged+author%3Aviiccwen' }],
   },
   {
     title: 'Apache TVM - Contributor',
     period: 'Jul 2026 — Present',
     logo: '/tvm.png',
-    points: ['Focused on ONNX-to-Relax model import'],
+    points: [],
     links: [{ label: 'Pull requests', href: 'https://github.com/apache/tvm/pulls?q=is%3Apr+is%3Amerged+author%3Aviiccwen' }],
   },
 ] satisfies readonly OpenSourceItem[]

@@ -16,9 +16,11 @@ export function OpenSourceSection() {
                 <h3 className="text-base font-semibold text-zinc-100 transition group-hover:text-violet-200">{item.title}</h3>
                 <span className="font-mono text-xs uppercase tracking-[0.18em] text-zinc-600">{item.period}</span>
               </div>
-              <ul className="mt-4 space-y-2">
-                {item.points.map((point, index) => <Bullet key={index}>{point}</Bullet>)}
-              </ul>
+              {item.points.length > 0 ? (
+                <ul className="mt-4 space-y-2">
+                  {item.points.map((point, index) => <Bullet key={index}>{point}</Bullet>)}
+                </ul>
+              ) : null}
               <div className="mt-4 flex flex-wrap gap-x-5 gap-y-2">
                 {item.links.map((link) => (
                   <a className="text-xs uppercase tracking-[0.18em] text-violet-300 transition hover:text-violet-200" href={link.href} key={link.href} rel="noreferrer" target="_blank">
