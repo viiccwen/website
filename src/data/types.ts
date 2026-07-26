@@ -61,3 +61,12 @@ export type Talk = {
   logo: string
   href: string
 }
+
+export type Publication = {
+  title: string
+  authors: string
+  venue: string
+  logo: string
+  logoAlt: string
+  href?: string
+}

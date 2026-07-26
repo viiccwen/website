@@ -1,5 +1,6 @@
 export { education, experience, openSource, projects } from './career'
 export { honors } from './honors'
+export { publications } from './publications'
 export { profile, socials } from './profile'
 export { talks } from './talks'
-export type { EducationItem, ExperienceItem, Honor, OpenSourceItem, Profile, ProjectItem, SocialLink, Talk } from './types'
+export type { EducationItem, ExperienceItem, Honor, OpenSourceItem, Profile, ProjectItem, Publication, SocialLink, Talk } from './types'
