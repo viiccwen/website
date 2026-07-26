@@ -83,6 +83,10 @@
   color: #24153f !important;
 }
 
+.theme-light .text-zinc-200 {
+  color: #24153f !important;
+}
+
 .theme-light .text-zinc-300,
 .theme-light .text-zinc-400 {
   color: #5f5275 !important;
