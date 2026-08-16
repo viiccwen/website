@@ -75,6 +75,13 @@ export const openSource = [
     ],
   },
   {
+    title: 'Ray Data - Contributor',
+    period: 'Aug 2026 — Present',
+    logo: 'https://github.com/ray-project.png',
+    points: [],
+    links: [{ label: 'Pull requests', href: 'https://github.com/ray-project/ray/pulls?q=is%3Apr+is%3Amerged+author%3Aviiccwen' }],
+  },
+  {
     title: 'Apache Airflow - Contributor',
     period: 'Jul 2026 — Present',
     logo: '/airflow.png',
