@@ -1,5 +1,20 @@
 [
   {
+    "slug": "ai-infrastructure-day-01-what-is-ai-infrastructure",
+    "locale": "zh-tw",
+    "title": "模型之外：AI Infra 到底是什麼？",
+    "excerpt": "從資料平面、分散式執行環境到控制平面，建立 AI Infra 的全貌。",
+    "date": "2026-08-17",
+    "category": "AI infra",
+    "featured": false,
+    "tags": [
+      "AI Infra",
+      "鐵人賽"
+    ],
+    "readingTime": "7 分鐘閱讀",
+    "image": "/posts/ai-infrastructure-day-01/ai-request-lifecycle.png"
+  },
+  {
     "slug": "learning-from-apache-committer",
     "locale": "en",
     "title": "The Nuances of Open Source: What I Learned from Becoming an Apache Committer",
