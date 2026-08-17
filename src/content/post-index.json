@@ -1,5 +1,20 @@
 [
   {
+    "slug": "ai-infrastructure-day-04-ai-system-bottlenecks",
+    "locale": "zh-tw",
+    "title": "模型之外：AI 系統的瓶頸，為什麼常常不是 GPU？",
+    "excerpt": "辨認資料、網路、CPU、排隊與 GPU 記憶體等 AI 系統常見瓶頸。",
+    "date": "2026-08-20",
+    "category": "AI infra",
+    "featured": false,
+    "tags": [
+      "AI Infra",
+      "鐵人賽"
+    ],
+    "readingTime": "9 分鐘閱讀",
+    "image": "/posts/ai-infrastructure-day-04/input-pipeline-idle-gpu.png"
+  },
+  {
     "slug": "ai-infrastructure-day-03-latency-throughput-qps",
     "locale": "zh-tw",
     "title": "模型之外：Latency、Throughput、QPS 到底差在哪？",
