@@ -1,5 +1,20 @@
 [
   {
+    "slug": "ai-infrastructure-day-05-row-based-vs-columnar-parquet",
+    "locale": "zh-tw",
+    "title": "模型之外：Row-based vs Columnar：為什麼 Parquet 適合 ML？",
+    "excerpt": "從掃描模式、壓縮與 schema 演進，理解 Parquet 為何常見於 ML 資料管線。",
+    "date": "2026-08-21",
+    "category": "AI infra",
+    "featured": false,
+    "tags": [
+      "AI Infra",
+      "鐵人賽"
+    ],
+    "readingTime": "8 分鐘閱讀",
+    "image": "/posts/ai-infrastructure-day-05/row-vs-columnar-layout.png"
+  },
+  {
     "slug": "ai-infrastructure-day-04-ai-system-bottlenecks",
     "locale": "zh-tw",
     "title": "模型之外：AI 系統的瓶頸，為什麼常常不是 GPU？",
