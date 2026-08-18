@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">One common memory format, fewer conversions</title>
+  <desc id="desc">Without a common format, Python, Java, C++ and Rust need pairwise conversion. With Arrow, each runtime uses one common columnar memory format. C Data Interface and IPC file or stream have distinct scopes.</desc>
+  <defs>
+    <marker id="navy-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0F172A"/></marker>
+    <marker id="orange-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#D97706"/></marker>
+    <style>
+      .heading { font: 700 36px Arial, sans-serif; fill: #0F172A; }
+      .module { font: 700 32px Arial, sans-serif; fill: #0F172A; text-anchor: middle; dominant-baseline: middle; }
+      .module-light { font: 700 32px Arial, sans-serif; fill: #FFFFFF; text-anchor: middle; dominant-baseline: middle; }
+      .small { font: 600 20px Arial, sans-serif; fill: #0F172A; }
+      .caption { font: 700 28px Arial, sans-serif; fill: #0F172A; text-anchor: middle; }
+      .convert { font: 600 17px Arial, sans-serif; fill: #B45309; text-anchor: middle; }
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="#F8FAFC"/>
+  <text x="800" y="58" class="heading" text-anchor="middle">One common memory format, fewer conversions</text>
+  <line x1="800" y1="100" x2="800" y2="730" stroke="#CBD5E1" stroke-width="3"/>
+  <text x="400" y="120" class="heading" text-anchor="middle">Without a common memory format</text>
+  <text x="1200" y="120" class="heading" text-anchor="middle">With Arrow</text>
+  <g fill="#FFFFFF" stroke="#0F172A" stroke-width="3">
+    <rect x="95" y="185" width="180" height="82" rx="10"/><rect x="525" y="185" width="180" height="82" rx="10"/>
+    <rect x="95" y="530" width="180" height="82" rx="10"/><rect x="525" y="530" width="180" height="82" rx="10"/>
+  </g>
+  <text x="185" y="226" class="module">Python</text><text x="615" y="226" class="module">Java</text><text x="185" y="571" class="module">C++</text><text x="615" y="571" class="module">Rust</text>
+  <g stroke="#D97706" stroke-width="3" marker-start="url(#orange-arrow)" marker-end="url(#orange-arrow)">
+    <line x1="290" y1="226" x2="510" y2="226"/><line x1="290" y1="571" x2="510" y2="571"/>
+    <line x1="185" y1="282" x2="185" y2="515"/><line x1="615" y1="282" x2="615" y2="515"/>
+    <line x1="285" y1="278" x2="505" y2="515"/><line x1="285" y1="515" x2="505" y2="278"/>
+  </g>
+  <text x="400" y="210" class="convert">convert / serialize</text><text x="400" y="555" class="convert">convert / serialize</text>
+  <text x="205" y="405" class="convert" transform="rotate(-90 205 405)">convert / serialize</text><text x="595" y="405" class="convert" transform="rotate(-90 595 405)">convert / serialize</text>
+  <text x="390" y="375" class="convert" transform="rotate(47 390 375)">convert / serialize</text><text x="410" y="375" class="convert" transform="rotate(-47 410 375)">convert / serialize</text>
+  <g fill="#0F766E" stroke="#0F172A" stroke-width="3">
+    <rect x="870" y="185" width="180" height="76" rx="10"/><rect x="1350" y="185" width="180" height="76" rx="10"/>
+    <rect x="870" y="515" width="180" height="76" rx="10"/><rect x="1350" y="515" width="180" height="76" rx="10"/>
+  </g>
+  <text x="960" y="223" class="module-light">Python</text><text x="1440" y="223" class="module-light">Java</text><text x="960" y="553" class="module-light">C++</text><text x="1440" y="553" class="module-light">Rust</text>
+  <rect x="1025" y="345" width="350" height="120" rx="12" fill="#2563EB" stroke="#0F172A" stroke-width="3"/>
+  <text x="1200" y="394" class="module-light">Apache Arrow</text><text x="1200" y="430" class="module-light" style="font-size:24px">Columnar Memory Format</text>
+  <g stroke="#0F172A" stroke-width="3" marker-end="url(#navy-arrow)">
+    <line x1="960" y1="268" x2="1085" y2="337"/><line x1="1440" y1="268" x2="1315" y2="337"/>
+    <line x1="960" y1="508" x2="1085" y2="473"/><line x1="1440" y1="508" x2="1315" y2="473"/>
+  </g>
+  <g fill="#FFFFFF" stroke="#0F172A" stroke-width="3">
+    <rect x="850" y="655" width="330" height="130" rx="10"/><rect x="1220" y="655" width="330" height="130" rx="10"/>
+  </g>
+  <g stroke="#0F172A" stroke-width="3" marker-end="url(#navy-arrow)"><line x1="1110" y1="470" x2="1015" y2="646"/><line x1="1290" y1="470" x2="1385" y2="646"/></g>
+  <text x="880" y="700" class="small" style="font-weight:700">C Data Interface</text><text x="880" y="730" class="small">same process, cross-library</text><text x="880" y="756" class="small">shared buffers when compatible</text>
+  <text x="1250" y="700" class="small" style="font-weight:700">IPC file / stream</text><text x="1250" y="730" class="small">process, file, or network</text><text x="1250" y="756" class="small">preserves columnar layout</text>
+  <text x="800" y="855" class="caption">Standardize the data representation, not every pairwise conversion.</text>
+</svg>
