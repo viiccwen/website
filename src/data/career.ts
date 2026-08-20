@@ -41,7 +41,7 @@ export const education = [
     period: 'Sep 2023 — Jun 2027',
     logo: '/ntust.png',
     focus: [
-      "Third-year CSIE student with GPA 4.20/4.30, ranked 3rd in the department (Top 4%), and awarded Dean's List 3 times.",
+      "Final-year CSIE student with GPA 4.20/4.30, ranked 3rd in the department (Top 4%), and awarded Dean's List 3 times.",
       'NLP Lab (Prof. Kuan-Yu Chen), researching Multimodal Emotion Recognition in Conversations.',
     ],
     labHref: 'https://nlp.csie.ntust.edu.tw/',
