@@ -1,7 +1,6 @@
 ---
 title: 2023 Northern District 13-School GDSC Joint Exchange Event
 published: 2023-12-12
-description: ''
 image: 'https://imgur.com/W8doQnP.jpg'
 tags: [GDSC]
 category: 'Notes & Reflections'

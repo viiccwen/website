@@ -1,7 +1,6 @@
 ---
 title: "Industrial Technology Competition, Computer Repair Category: My Journey as a Competitor"
 published: 2024-01-17
-description: ''
 image: 'https://imgur.com/iS0BysX.jpg'
 tags: ["Competitor"]
 category: 'Records & Reflections'

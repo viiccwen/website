@@ -1,7 +1,6 @@
 ---
 title: OLAP 和 OLTP 是什麼？
 published: 2025-08-03
-description: ''
 image: ''
 tags: [Backend]
 category: 'software development'

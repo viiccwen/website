@@ -1,7 +1,6 @@
 ---
 title: 'SITCON 2025 - From Managing to Leading: Sharing Community Leadership Experience'
 published: 2025-03-08
-description: ""
 image: "../../../assets/posts/sitcon-2025-management-leadership.png"
 tags: [SITCON, Leadership]
 category: "Talks"

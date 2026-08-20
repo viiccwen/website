@@ -1,7 +1,6 @@
 ---
 title: ClickHouse 系列：從原始碼看 MergeTree 的六大核心機制
 published: 2025-09-03
-description: ''
 image: 'https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress'
 tags: [ClickHouse, Database, 鐵人賽]
 category: 'software development'

@@ -1,7 +1,6 @@
 ---
 title: "New Taipei City Overseas Technical Training Program: A Journey to Australia"
 published: 2023-05-03
-description: ''
 image: 'https://imgur.com/zZcw6jW.jpg'
 tags: ["Overseas Technical Training"]
 category: 'Records & Reflections'

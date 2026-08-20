@@ -1,7 +1,6 @@
 ---
 title: "ClickHouse Series: Query Optimization Case Studies"
 published: 2025-08-28
-description: ""
 image: "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
 tags: ["ClickHouse", "Database", "Ironman"]
 category: "software development"

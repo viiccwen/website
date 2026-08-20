@@ -1,7 +1,6 @@
 ---
 title: "What Are OLAP and OLTP Databases?"
 published: 2025-08-03
-description: ''
 image: ''
 tags: ["Backend"]
 category: 'software development'

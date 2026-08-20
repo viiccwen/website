@@ -1,7 +1,6 @@
 ---
 title: ClickHouse 系列：壓縮技術與 Data Skipping Indexes 如何大幅加速查詢
 published: 2025-08-07
-description: ''
 image: 'https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress'
 tags: [ClickHouse, Database, 鐵人賽]
 category: 'software development'

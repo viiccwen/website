@@ -1,7 +1,6 @@
 ---
 title: "ClickHouse Series: What Is ClickHouse? How It Differs from Traditional OLAP/OLTP Databases"
 published: 2025-08-04
-description: ""
 image: "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
 tags: [ClickHouse, Database, Ironman]
 category: "software development"

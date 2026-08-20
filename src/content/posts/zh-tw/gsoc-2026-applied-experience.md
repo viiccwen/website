@@ -1,7 +1,6 @@
 ---
 title: "Google Summer of Code 2026 申請經歷"
 published: 2026-07-10
-description: ""
 image: "/gsoc-2026.jpg"
 tags: [internship, opensource]
 category: "紀錄 & 心得"

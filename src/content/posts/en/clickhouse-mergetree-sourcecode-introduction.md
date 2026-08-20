@@ -1,7 +1,6 @@
 ---
 title: "ClickHouse Series: The Six Core Mechanisms of MergeTree from the Source Code"
 published: 2025-09-03
-description: ''
 image: 'https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress'
 tags: [ClickHouse, Database, Ironman]
 category: 'software development'

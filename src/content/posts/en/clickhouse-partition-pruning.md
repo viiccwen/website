@@ -1,7 +1,6 @@
 ---
 title: "ClickHouse Series: Partitioning Strategy and Partition Pruning, How to Speed Up Big Data Queries"
 published: 2025-08-11
-description: ""
 image: "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
 tags: [ClickHouse, Database, Ironman]
 category: "software development"

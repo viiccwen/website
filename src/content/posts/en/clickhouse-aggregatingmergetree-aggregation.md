@@ -1,7 +1,6 @@
 ---
 title: "ClickHouse Series: Advanced Real-Time Metrics with AggregatingMergeTree"
 published: 2025-08-15
-description: ''
 image: 'https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress'
 tags: ["ClickHouse", "Database", "Ironman", "Distributed"]
 category: 'software development'

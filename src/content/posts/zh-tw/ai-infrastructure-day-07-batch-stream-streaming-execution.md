@@ -1,7 +1,6 @@
 ---
 title: "模型之外：Batch Processing、Stream Processing、Streaming Execution 差在哪？"
 published: 2026-08-23
-description: "不要把資料輸入型態與執行策略混為一談：批次、串流與 streaming execution 的差別。"
 image: "/posts/ai-infrastructure-day-07/bounded-vs-unbounded-data.png"
 tags: ["AI Infra", "鐵人賽"]
 category: "AI infra"

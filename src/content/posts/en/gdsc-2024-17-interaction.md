@@ -1,7 +1,6 @@
 ---
 title: 2024 17-School GDSC Joint Technical Exchange Event
 published: 2024-04-28
-description: ''
 image: 'https://imgur.com/hrASZdh.jpg'
 tags: [GDSC]
 category: 'Notes & Reflections'

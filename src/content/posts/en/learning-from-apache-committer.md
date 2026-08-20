@@ -1,7 +1,6 @@
 ---
 title: "The Nuances of Open Source: What I Learned from Becoming an Apache Committer"
 published: 2026-07-12
-description: ""
 image: "/committer-list.jpg"
 tags: [opensource]
 category: "opensource"

@@ -1,7 +1,6 @@
 ---
 title: ClickHouse 系列：ClickHouse 與外部資料源整合（PostgreSQL）
 published: 2025-08-20
-description: ''
 image: 'https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress'
 tags: [ClickHouse, Database, 鐵人賽, Distributed]
 category: 'software development'

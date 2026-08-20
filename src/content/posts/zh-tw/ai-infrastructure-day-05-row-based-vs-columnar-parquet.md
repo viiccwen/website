@@ -1,7 +1,6 @@
 ---
 title: "模型之外：Row-based vs Columnar：為什麼 Parquet 適合 ML？"
 published: 2026-08-21
-description: "從掃描模式、壓縮與 schema 演進，理解 Parquet 為何常見於 ML 資料管線。"
 image: "/posts/ai-infrastructure-day-05/row-vs-columnar-layout.png"
 tags: ["AI Infra", "鐵人賽"]
 category: "AI infra"

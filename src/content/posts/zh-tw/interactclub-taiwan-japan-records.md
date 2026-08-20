@@ -1,7 +1,6 @@
 ---
 title: 2023年台日扶少團公益交流活動
 published: 2023-08-03
-description: ''
 image: 'https://imgur.com/AAZuqrE.jpg'
 tags: [扶少團]
 category: '紀錄 & 心得'

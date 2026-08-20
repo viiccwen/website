@@ -1,7 +1,6 @@
 ---
 title: 2024年17校GDSC聯合技術交流會
 published: 2024-04-28
-description: ''
 image: 'https://imgur.com/hrASZdh.jpg'
 tags: [GDSC]
 category: '紀錄 & 心得'

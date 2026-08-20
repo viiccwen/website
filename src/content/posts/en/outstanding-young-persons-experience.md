@@ -1,7 +1,6 @@
 ---
 title: "My Application Journey for NTUST Outstanding Youth Awards"
 published: 2025-08-03
-description: ''
 image: '../../../assets/posts/outstanding-young-persons-experience/image.jpg'
 tags: ["Outstanding Youth"]
 category: 'Records & Reflections'

@@ -1,7 +1,6 @@
 ---
 title: "Zeabur Cloud Deployment Platform: The One-Click Deployment Tool for the Lazy at Heart"
 published: 2025-01-21
-description: ""
 image: "../../../assets/posts/zeabur-deployment-tutorial.png"
 tags: ["Zeabur", "Deployment"]
 category: "Tools"

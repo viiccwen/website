@@ -1,7 +1,6 @@
 ---
 title: "Introduction to Apache Mahout: From Distributed Machine Learning to Distributed Quantum Computing"
 published: 2026-06-15
-description: ""
 image: "/mahout-website.jpg"
 tags: [opensource]
 category: "Open Source"

@@ -1,7 +1,6 @@
 ---
 title: 工科技藝競賽電腦修護職種：選手歷程
 published: 2024-01-17
-description: ''
 image: 'https://imgur.com/iS0BysX.jpg'
 tags: [選手]
 category: '紀錄 & 心得'

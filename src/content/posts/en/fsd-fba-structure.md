@@ -1,7 +1,6 @@
 ---
 title: "Where Are the Files, Anyway? A Frontend Project Structure Guide (FSD and FBA)"
 published: 2025-08-12
-description: ''
 image: 'https://repository-images.githubusercontent.com/328463920/c9bc1654-53a8-4c4d-a5b0-94297d564ee2'
 tags: ["Frontend"]
 category: 'software development'

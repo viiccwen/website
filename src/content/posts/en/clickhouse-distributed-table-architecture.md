@@ -1,7 +1,6 @@
 ---
 title: "ClickHouse Series: Distributed Tables and Distributed Query Architecture"
 published: 2025-08-16
-description: ''
 image: 'https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress'
 tags: ["ClickHouse", "Database", "Ironman", "Distributed"]
 category: 'software development'

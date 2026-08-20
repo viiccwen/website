@@ -1,7 +1,6 @@
 ---
 title: ClickHouse 系列：與 BI 工具整合（Power BI）
 published: 2025-08-29
-description: ''
 image: 'https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress'
 tags: [ClickHouse, Database, 鐵人賽, Distributed]
 category: 'software development'

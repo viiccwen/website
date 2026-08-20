@@ -1,7 +1,6 @@
 ---
 title: 從 GitHub 到 Offer：透過開源貢獻拿到實習 Offer
 published: 2026-04-15
-description: ''
 image: '../../../assets/posts/from-opensource-to-twm-intern/alc-taipei.webp'
 tags: ['internship', 'opensource']
 category: '開源貢獻'

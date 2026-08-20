@@ -1,7 +1,6 @@
 ---
 title: RECAP：回顧2023
 published: 2024-01-06
-description: ''
 image: 'https://imgur.com/3czi6ln.jpg'
 tags: [RECAP]
 category: '紀錄 & 心得'

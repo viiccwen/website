@@ -1,7 +1,6 @@
 ---
 title: "模型之外：一個 AI Request 背後到底發生了什麼？"
 published: 2026-08-18
-description: "從 Client 到 GPU，再回到 Client，拆解一個 AI request 經過的完整路徑。"
 image: "/posts/ai-infrastructure-day-02/ai-request-lifecycle.png"
 tags: ["AI Infra", "鐵人賽"]
 category: "AI infra"

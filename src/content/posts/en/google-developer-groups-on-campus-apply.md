@@ -1,7 +1,6 @@
 ---
 title: What Does a Google Student Tech Club Do? How Should I Apply? Let a Current GDG on Campus Lead Walk You Through It!
 published: 2025-01-25
-description: ''
 image: '../../../assets/posts/google-developer-groups-on-campus-apply/google-developer-groups-on-campus-apply.jpg'
 tags: [GDGoC]
 category: 'Notes & Reflections'

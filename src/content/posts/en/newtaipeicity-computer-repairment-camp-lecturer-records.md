@@ -1,7 +1,6 @@
 ---
 title: "2023 New Taipei City Computer Repair Golden Hand Training Camp"
 published: 2023-11-28
-description: ''
 image: 'https://imgur.com/JKMdFwM.jpg'
 tags: ["Lecturer"]
 category: 'Records & Reflections'

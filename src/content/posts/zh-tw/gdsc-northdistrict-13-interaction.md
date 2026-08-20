@@ -1,7 +1,6 @@
 ---
 title: 2023年北區13校GDSC聯合交流會
 published: 2023-12-12
-description: ''
 image: 'https://imgur.com/W8doQnP.jpg'
 tags: [GDSC]
 category: '紀錄 & 心得'

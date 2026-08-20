@@ -1,7 +1,6 @@
 ---
 title: "ClickHouse Series: Integrating ClickHouse with External Data Sources (PostgreSQL)"
 published: 2025-08-20
-description: ''
 image: 'https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress'
 tags: [ClickHouse, Database, Ironman, Distributed]
 category: 'software development'

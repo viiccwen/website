@@ -1,7 +1,6 @@
 ---
 title: ClickHouse 系列：Kubernetes 部署分散式架構
 published: 2025-09-02
-description: ''
 image: 'https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress'
 tags: [ClickHouse, Database, 鐵人賽]
 category: 'software development'

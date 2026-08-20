@@ -1,7 +1,6 @@
 ---
 title: "ClickHouse Series: Table Design and Storage Optimization Details"
 published: 2025-08-26
-description: ""
 image: "https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress"
 tags: ["ClickHouse", "Database", "Ironman"]
 category: "software development"

@@ -1,7 +1,6 @@
 ---
 title: "那些開源的眉眉角角：成為 Apache Committer，我學到了什麼？"
 published: 2026-07-12
-description: ""
 image: "/committer-list.jpg"
 tags: [opensource]
 category: "opensource"

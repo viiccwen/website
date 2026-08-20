@@ -1,7 +1,6 @@
 ---
 title: 2023 Taiwan-Japan Interact Club Exchange Event
 published: 2023-08-03
-description: ''
 image: 'https://imgur.com/AAZuqrE.jpg'
 tags: [Interact Club]
 category: 'Notes & Reflections'

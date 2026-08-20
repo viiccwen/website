@@ -1,7 +1,6 @@
 ---
 title: "RECAP: Looking Back on 2023"
 published: 2024-01-06
-description: ''
 image: 'https://imgur.com/3czi6ln.jpg'
 tags: ["RECAP"]
 category: 'Records & Reflections'

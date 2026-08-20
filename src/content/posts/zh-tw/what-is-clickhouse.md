@@ -1,7 +1,6 @@
 ---
 title: ClickHouse 系列：ClickHouse 是什麼？與傳統 OLAP/OLTP 資料庫的差異
 published: 2025-08-04
-description: ''
 image: 'https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress'
 tags: [ClickHouse, Database, 鐵人賽]
 category: 'software development'

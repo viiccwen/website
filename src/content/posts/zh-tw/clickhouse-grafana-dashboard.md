@@ -1,7 +1,6 @@
 ---
 title: ClickHouse 系列：整合 Grafana 打造可視化監控
 published: 2025-08-27
-description: ''
 image: 'https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress'
 tags: [ClickHouse, Database, 鐵人賽, Distributed]
 category: 'software development'

@@ -1,7 +1,6 @@
 ---
 title: ClickHouse 系列：SummingMergeTree 進行資料彙總的應用場景
 published: 2025-08-09
-description: ''
 image: 'https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress'
 tags: [ClickHouse, Database, 鐵人賽]
 category: 'software development'

@@ -1,7 +1,6 @@
 ---
 title: 112學年度新北市電腦修護金手培訓營
 published: 2023-11-28
-description: ''
 image: 'https://imgur.com/JKMdFwM.jpg'
 tags: [講師]
 category: '紀錄 & 心得'

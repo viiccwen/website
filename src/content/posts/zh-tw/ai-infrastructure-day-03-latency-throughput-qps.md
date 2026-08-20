@@ -1,7 +1,6 @@
 ---
 title: "模型之外：Latency、Throughput、QPS 到底差在哪？"
 published: 2026-08-19
-description: "建立延遲、吞吐量、QPS 與 tail latency 的共同語言。"
 image: "/posts/ai-infrastructure-day-03/latency-breakdown.png"
 tags: ["AI Infra", "鐵人賽"]
 category: "AI infra"

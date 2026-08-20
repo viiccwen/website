@@ -1,7 +1,6 @@
 ---
 title: "Apache Mahout 簡介：從分散式機器學習走向分散式量子運算"
 published: 2026-06-15
-description: ""
 image: "/mahout-website.jpg"
 tags: [opensource]
 category: "Open Source"

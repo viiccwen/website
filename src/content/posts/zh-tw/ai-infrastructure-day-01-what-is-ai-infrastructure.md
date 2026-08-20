@@ -1,7 +1,6 @@
 ---
 title: "模型之外：AI Infra 到底是什麼？"
 published: 2026-08-17
-description: "從資料平面、分散式執行環境到控制平面，建立 AI Infra 的全貌。"
 image: "/posts/ai-infrastructure-day-01/ai-request-lifecycle.png"
 tags: ["AI Infra", "鐵人賽"]
 category: "AI infra"

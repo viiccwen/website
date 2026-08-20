@@ -1,7 +1,6 @@
 ---
 title: ClickHouse 系列：Materialized Views 即時聚合查詢
 published: 2025-08-10
-description: ''
 image: 'https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress'
 tags: [ClickHouse, Database, 鐵人賽]
 category: 'software development'

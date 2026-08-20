@@ -1,7 +1,6 @@
 ---
 title: 檔案到底在哪裡？前端專案架構介紹（FSD 和 FBA）
 published: 2025-08-12
-description: ''
 image: 'https://repository-images.githubusercontent.com/328463920/c9bc1654-53a8-4c4d-a5b0-94297d564ee2'
 tags: [Frontend]
 category: 'software development'

@@ -1,7 +1,6 @@
 ---
 title: "模型之外：Data Locality：為什麼搬資料這麼昂貴？"
 published: 2026-08-24
-description: "從資料搬移成本與排程取捨理解 data locality"
 image: "/posts/ai-infrastructure-day-08/data-distance-from-compute.png"
 tags: ["AI Infra", "鐵人賽"]
 category: "AI infra"

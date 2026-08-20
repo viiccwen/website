@@ -1,7 +1,6 @@
 ---
 title: Zeabur 雲端部署平台：懶人最愛的一鍵部署利器
 published: 2025-01-21
-description: ''
 image: ../../../assets/posts/zeabur-deployment-tutorial.png
 tags: [Zeabur, Deployment]
 category: '工具'

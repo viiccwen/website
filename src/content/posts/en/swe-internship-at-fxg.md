@@ -1,7 +1,6 @@
 ---
 title: "[SWE Internship Recap] My Time at FXG"
 published: 2026-02-28
-description: ""
 image: "../../../assets/posts/fxg-internship-at-fxg.jpg"
 tags: ["internship"]
 category: "Notes & Reflections"

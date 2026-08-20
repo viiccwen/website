@@ -1,7 +1,6 @@
 ---
 title: "模型之外：Apache Arrow 與 Zero-Copy 到底在解決什麼？"
 published: 2026-08-22
-description: "理解 Arrow 的記憶體格式，以及 zero-copy 如何減少跨系統資料搬移。"
 image: "/posts/ai-infrastructure-day-06/arrow-int32-memory-layout.png"
 tags: ["AI Infra", "鐵人賽"]
 category: "AI infra"

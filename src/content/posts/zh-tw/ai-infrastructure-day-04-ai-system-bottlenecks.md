@@ -1,7 +1,6 @@
 ---
 title: "模型之外：AI 系統的瓶頸，為什麼常常不是 GPU？"
 published: 2026-08-20
-description: "辨認資料、網路、CPU、排隊與 GPU 記憶體等 AI 系統常見瓶頸。"
 image: "/posts/ai-infrastructure-day-04/input-pipeline-idle-gpu.png"
 tags: ["AI Infra", "鐵人賽"]
 category: "AI infra"

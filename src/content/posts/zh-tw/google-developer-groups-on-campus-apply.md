@@ -1,7 +1,6 @@
 ---
 title: Google 學生社團在做什麼？我該如何申請？ - 讓 GDG on Campus 現任 Lead 帶你了解吧！
 published: 2025-01-25
-description: ''
 image: '../../../assets/posts/google-developer-groups-on-campus-apply/google-developer-groups-on-campus-apply.jpg'
 tags: [GDGoC]
 category: '紀錄 & 心得'

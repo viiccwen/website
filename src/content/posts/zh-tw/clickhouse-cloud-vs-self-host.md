@@ -1,7 +1,6 @@
 ---
 title: ClickHouse 系列：ClickHouse Cloud 與自建部署的優劣比較
 published: 2025-08-30
-description: ''
 image: 'https://images.prismic.io/contrary-research/ZiwDyN3JpQ5PTNpR_clickhousecover.png?auto=format,compress'
 tags: [ClickHouse, Database, 鐵人賽]
 category: 'software development'

@@ -1,7 +1,6 @@
 ---
 title: 新北市薦送海外技職研習：澳大利亞之旅
 published: 2023-05-03
-description: ''
 image: 'https://imgur.com/zZcw6jW.jpg'
 tags: [海外技職研習]
 category: '紀錄 & 心得'
