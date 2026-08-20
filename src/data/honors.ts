@@ -2,6 +2,13 @@ import type { Honor } from './types'
 
 export const honors = [
   {
+    title: 'Beyond the Model: 30 Days to Understand AI Infrastructure',
+    subtitle: '2026 iThome Ironman Challenge',
+    period: 'Aug 2026',
+    logo: 'https://ithelp.ithome.com.tw/storage/image/fight.svg',
+    href: 'https://ithelp.ithome.com.tw/users/20168031/ironman/9243',
+  },
+  {
     title: 'Database Bottom-Level Architecture to Application Practice',
     subtitle: '2025 iThome Ironman Challenge',
     period: 'Aug 2025',
