@@ -4,7 +4,7 @@ export const profile = {
   location: 'Taipei, Taiwan',
   headline: 'Building AI infrastructure, backend systems, and open-source software with a community-first mindset.',
   summary:
-    "I’m Vic, a software engineer building scalable infrastructure for AI. My work spans backend systems, data infrastructure, ML compiler Frontend, and open source.",
+    "I’m Vic, a software engineer building scalable infrastructure for AI. My work spans AI / data infra, backend systems, and open source.",
   portrait: '/vicwen.webp',
   portraitAlt: 'Portrait of Vic Wen',
 } satisfies Profile
