@@ -81,6 +81,7 @@ export const openSource = [
     points: [],
     links: [{ label: 'Pull requests', href: 'https://github.com/ray-project/ray/pulls?q=is%3Apr+is%3Amerged+author%3Aviiccwen' }],
   },
+  /*
   {
     title: 'Apache Airflow - Contributor',
     period: 'Jul 2026 — Present',
@@ -95,4 +96,5 @@ export const openSource = [
     points: [],
     links: [{ label: 'Pull requests', href: 'https://github.com/apache/tvm/pulls?q=is%3Apr+is%3Amerged+author%3Aviiccwen' }],
   },
+  */
 ] satisfies readonly OpenSourceItem[]
