@@ -15,6 +15,81 @@
     "image": "/posts/ai-infrastructure-day-11/future-submit-wait.png"
   },
   {
+    "slug": "ai-infrastructure-day-10-thread-process-task-actor",
+    "locale": "zh-tw",
+    "title": "模型之外：Thread、Process、Task、Actor 到底差在哪？",
+    "excerpt": "",
+    "date": "2026-08-26",
+    "category": "AI infra",
+    "featured": false,
+    "tags": [
+      "AI Infra",
+      "鐵人賽"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "/posts/ai-infrastructure-day-10/process-thread-memory.png"
+  },
+  {
+    "slug": "ai-infrastructure-day-09-backpressure",
+    "locale": "zh-tw",
+    "title": "模型之外：Backpressure：資料跑太快為什麼也會出問題？",
+    "excerpt": "",
+    "date": "2026-08-25",
+    "category": "AI infra",
+    "featured": false,
+    "tags": [
+      "AI Infra",
+      "鐵人賽"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "/posts/ai-infrastructure-day-09/queue-growth.png"
+  },
+  {
+    "slug": "ai-infrastructure-day-08-data-locality",
+    "locale": "zh-tw",
+    "title": "模型之外：Data Locality：為什麼搬資料這麼昂貴？",
+    "excerpt": "",
+    "date": "2026-08-24",
+    "category": "AI infra",
+    "featured": false,
+    "tags": [
+      "AI Infra",
+      "鐵人賽"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "/posts/ai-infrastructure-day-08/data-distance-from-compute.png"
+  },
+  {
+    "slug": "ai-infrastructure-day-07-batch-stream-streaming-execution",
+    "locale": "zh-tw",
+    "title": "模型之外：Batch Processing、Stream Processing、Streaming Execution 差在哪？",
+    "excerpt": "",
+    "date": "2026-08-23",
+    "category": "AI infra",
+    "featured": false,
+    "tags": [
+      "AI Infra",
+      "鐵人賽"
+    ],
+    "readingTime": "3 分鐘閱讀",
+    "image": "/posts/ai-infrastructure-day-07/bounded-vs-unbounded-data.png"
+  },
+  {
+    "slug": "ai-infrastructure-day-06-apache-arrow-zero-copy",
+    "locale": "zh-tw",
+    "title": "模型之外：Apache Arrow 與 Zero-Copy 到底在解決什麼？",
+    "excerpt": "",
+    "date": "2026-08-22",
+    "category": "AI infra",
+    "featured": false,
+    "tags": [
+      "AI Infra",
+      "鐵人賽"
+    ],
+    "readingTime": "6 分鐘閱讀",
+    "image": "/posts/ai-infrastructure-day-06/arrow-int32-memory-layout.png"
+  },
+  {
     "slug": "ai-infrastructure-day-05-row-based-vs-columnar-parquet",
     "locale": "zh-tw",
     "title": "模型之外：Row-based vs Columnar：為什麼 Parquet 適合 ML？",
