@@ -19,7 +19,7 @@ export const publications = [
   },
   {
     title: 'ReH-FUSE: Reliability-Aware Hierarchical Experts for Multimodal Emotion Recognition in Conversation',
-    authors: 'Guan-Hua Wen, Kuan-Yu Chen, Hou-Chiang Tseng',
+    authors: 'Guan-Hua Wen, Hou-Chiang Tseng, Kuan-Yu Chen',
     venue: '2027 IEEE International Conference on Acoustics, Speech, and Signal Processing (under review)',
     logo: '/arxiv-logo.png',
     logoAlt: 'arXiv logo',
