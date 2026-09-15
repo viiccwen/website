@@ -23,7 +23,7 @@ export const publications = [
     venue: '2027 IEEE International Conference on Acoustics, Speech, and Signal Processing (under review)',
     logo: '/arxiv-logo.png',
     logoAlt: 'arXiv logo',
-    href: 'https://2027.ieeeicassp.org/',
+    href: 'http://arxiv.org/abs/2609.13857',
   },
   {
     title: 'Apache Mahout QDP: GPU-Accelerated Quantum Data Plane',
