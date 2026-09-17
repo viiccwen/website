@@ -10,6 +10,13 @@ export const experience = [
     points: [],
   },
   {
+    company: 'Fearyn.ai',
+    role: 'Co-Founder, CTO',
+    period: 'May 2026 — Present',
+    logo: '/fearyn.png',
+    points: [],
+  },
+  {
     company: 'Google Summer of Code',
     role: 'Mentee',
     period: 'May 2026 — Aug 2026',
