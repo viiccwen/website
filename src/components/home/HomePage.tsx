@@ -33,6 +33,8 @@ export function HomePage() {
           subtitle: item.credential,
           period: item.period,
           logo: item.logo,
+          href: item.href,
+          fullItemHref: true,
           points: item.focus.map((point) => {
             if (item.labHref && point.startsWith('NLP Lab')) {
               return (

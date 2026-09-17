@@ -24,6 +24,7 @@ export type EducationItem = {
   credential: string
   period: string
   logo: string
+  href?: string
   focus: readonly string[]
   labHref?: string
 }
