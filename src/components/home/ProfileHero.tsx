@@ -25,7 +25,7 @@ export function ProfileHero() {
             <span>{profile.location}</span>
             <span aria-hidden="true">·</span>
             <span>CSIE NTUST</span>
-            <a className="animate-bounce text-violet-400" href="#about" aria-label="Scroll to about">
+            <a className="animate-bounce text-violet-400" href="#experience" aria-label="Scroll to experience">
               <ArrowDown className="size-4" />
             </a>
           </div>

@@ -6,7 +6,6 @@ export type SocialLink = {
 export type Profile = {
   location: string
   headline: string
-  summary: string
   portrait: string
   portraitAlt: string
 }

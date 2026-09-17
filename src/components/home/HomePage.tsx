@@ -1,4 +1,4 @@
-import { education, experience, honors, profile, projects, talks } from '@/data/site'
+import { education, experience, honors, projects, talks } from '@/data/site'
 
 import { OpenSourceSection } from './OpenSourceSection'
 import { PublicationsSection } from './PublicationsSection'
@@ -11,13 +11,7 @@ export function HomePage() {
     <main>
       <ProfileHero />
 
-      <Section id="about" index="01" label="About" order={0}>
-        <div className="space-y-5 text-base leading-8 text-zinc-400">
-          <p>{profile.summary}</p>
-        </div>
-      </Section>
-
-      <Section id="experience" index="02" label="Experience" order={1}>
+      <Section id="experience" index="01" label="Experience" order={0}>
         <Timeline items={experience.map((item) => ({
           title: item.company,
           subtitle: item.role,
@@ -29,11 +23,11 @@ export function HomePage() {
         }))} />
       </Section>
 
-      <Section id="opensource" index="03" label="Open Source" order={2}>
+      <Section id="opensource" index="02" label="Open Source" order={1}>
         <OpenSourceSection />
       </Section>
 
-      <Section id="education" index="04" label="Education" order={3}>
+      <Section id="education" index="03" label="Education" order={2}>
         <Timeline items={education.map((item) => ({
           title: item.school,
           subtitle: item.credential,
@@ -56,11 +50,11 @@ export function HomePage() {
         }))} />
       </Section>
 
-      <Section id="publications" index="05" label="Publications" order={4}>
+      <Section id="publications" index="04" label="Publications" order={3}>
         <PublicationsSection />
       </Section>
 
-      <Section id="projects" index="06" label="Projects" order={5}>
+      <Section id="projects" index="05" label="Projects" order={4}>
         <Timeline items={projects.map((item) => ({
           title: item.title,
           subtitle: item.description,
@@ -72,7 +66,7 @@ export function HomePage() {
         }))} />
       </Section>
 
-      <Section id="honors" index="07" label="Honors" order={6}>
+      <Section id="honors" index="06" label="Honors" order={5}>
         <Timeline items={honors.map((item) => ({
           title: item.title,
           subtitle: item.subtitle,
@@ -83,7 +77,7 @@ export function HomePage() {
         }))} />
       </Section>
 
-      <Section id="talks" index="08" label="Talks" order={7}>
+      <Section id="talks" index="07" label="Talks" order={6}>
         <Timeline items={talks.map((item) => ({
           title: item.title,
           subtitle: item.topic,
