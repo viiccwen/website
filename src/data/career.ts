@@ -14,6 +14,7 @@ export const experience = [
     role: 'Co-Founder, CTO',
     period: 'May 2026 — Present',
     logo: '/fearyn.png',
+    href: 'https://fearyn.com',
     points: [],
   },
   {
