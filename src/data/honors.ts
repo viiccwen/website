@@ -12,7 +12,7 @@ export const honors = [
     title: 'Database Bottom-Level Architecture to Application Practice',
     subtitle: '2025 iThome Ironman Challenge',
     period: 'Aug 2025',
-    logo: '/clickhouse.svg',
+    logo: '/clickhouse.png',
     href: 'https://ithelp.ithome.com.tw/users/20168031/ironman/8221',
   },
   {

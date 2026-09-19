@@ -5,7 +5,7 @@ export const experience = [
     company: 'Microsoft',
     role: 'Research and Development Intern',
     period: 'Jul 2026 — Present',
-    logo: '/microsoft.svg',
+    logo: '/microsoft.jpg',
     href: 'https://www.microsoft.com/',
     points: [],
   },
@@ -86,7 +86,7 @@ export const openSource = [
   {
     title: 'Ray Data - Contributor',
     period: 'Aug 2026 — Present',
-    logo: 'https://github.com/ray-project.png',
+    logo: '/ray.png',
     points: [],
     links: [{ label: 'Pull requests', href: 'https://github.com/ray-project/ray/pulls?q=is%3Apr+is%3Amerged+author%3Aviiccwen' }],
   },
