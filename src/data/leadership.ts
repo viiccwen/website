@@ -9,7 +9,7 @@ export const leadership = [
     href: 'https://www.instagram.com/gdg.ntust/',
   },
   {
-    title: 'DevJam',
+    title: 'DevJam Hackathon',
     subtitle: 'Co-organizer',
     period: 'Feb 2025 — Jun 2025',
     logo: '/devjam.jpg',
