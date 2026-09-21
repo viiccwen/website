@@ -15,4 +15,11 @@ export const leadership = [
     logo: '/devjam.jpg',
     href: 'https://devjam.tw',
   },
+  {
+    title: 'Computer Science Student Association',
+    subtitle: 'Director',
+    period: 'Jul 2024 — Jul 2025',
+    logo: '/ntust-csie.png',
+    href: 'https://www.instagram.com/ntustcsie/',
+  },
 ] satisfies readonly LeadershipItem[]
