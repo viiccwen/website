@@ -50,7 +50,7 @@ export const education = [
     logo: '/ntust.png',
     href: 'https://www.ntust.edu.tw',
     focus: [
-      "Final-year CSIE student with GPA 4.21/4.30, ranked 3rd in the department (Top 4%), and awarded Dean's List 3 times.",
+      "Final-year CSIE student with GPA 4.21/4.30, ranked 3rd in the department (Top 3%), and awarded Dean's List 3 times.",
       'NLP Lab (Prof. Kuan-Yu Chen), researching Multimodal Emotion Recognition in Conversations.',
     ],
     labHref: 'https://nlp.csie.ntust.edu.tw/',
