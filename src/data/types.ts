@@ -46,6 +46,14 @@ export type ProjectItem = {
   href?: string
 }
 
+export type LeadershipItem = {
+  title: string
+  subtitle: string
+  period: string
+  logo: string
+  href: string
+}
+
 export type Honor = {
   title: string
   subtitle: string

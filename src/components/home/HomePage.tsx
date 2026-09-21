@@ -1,4 +1,4 @@
-import { education, experience, honors, projects, talks } from '@/data/site'
+import { education, experience, honors, leadership, projects, talks } from '@/data/site'
 
 import { OpenSourceSection } from './OpenSourceSection'
 import { PublicationsSection } from './PublicationsSection'
@@ -68,7 +68,19 @@ export function HomePage() {
         }))} />
       </Section>
 
-      <Section id="honors" index="06" label="Honors" order={5}>
+      <Section id="leadership" index="06" label="Leadership" order={5}>
+        <Timeline items={leadership.map((item) => ({
+          title: item.title,
+          subtitle: item.subtitle,
+          period: item.period,
+          logo: item.logo,
+          href: item.href,
+          fullItemHref: true,
+          points: [],
+        }))} />
+      </Section>
+
+      <Section id="honors" index="07" label="Honors" order={6}>
         <Timeline items={honors.map((item) => ({
           title: item.title,
           subtitle: item.subtitle,
@@ -79,7 +91,7 @@ export function HomePage() {
         }))} />
       </Section>
 
-      <Section id="talks" index="07" label="Talks" order={6}>
+      <Section id="talks" index="08" label="Talks" order={7}>
         <Timeline items={talks.map((item) => ({
           title: item.title,
           subtitle: item.topic,
