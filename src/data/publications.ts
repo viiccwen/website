@@ -3,7 +3,7 @@ import type { Publication } from './types'
 export const publications = [
   {
     title: 'Board-Feedback Closed-Form Ensembling with LLM Direct Scoring for Chinese Valence-Arousal Regression in New-Immigrant Texts',
-    authors: 'Chuan-Jhih You, Yu-Cheng Chao, Guan-Hua Wen and Kuan-Yu Chen',
+    authors: 'Chuan-Jhih You, Yu-Cheng Chao, Guan-Hua Wen, Kuan-Yu Chen',
     venue: 'the 38th Conference on Computational Linguistics and Speech Processing',
     logo: '/acl-logo.svg',
     logoAlt: 'Association for Computational Linguistics logo',
