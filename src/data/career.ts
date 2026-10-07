@@ -2,6 +2,14 @@ import type { EducationItem, ExperienceItem, OpenSourceItem, ProjectItem } from 
 
 export const experience = [
   {
+    company: 'Taione Open Source Foundation',
+    role: 'Fellow',
+    period: 'Oct 2026 — Present',
+    logo: '/taione.svg',
+    href: 'https://taione.org/',
+    points: [],
+  },
+  {
     company: 'Microsoft',
     role: 'Research and Development Intern',
     period: 'Jul 2026 — Present',
