@@ -2,6 +2,13 @@ import type { Publication } from './types'
 
 export const publications = [
   {
+    title: 'Board-Feedback Closed-Form Ensembling with LLM Direct Scoring for Chinese Valence-Arousal Regression in New-Immigrant Texts',
+    authors: 'Chuan-Jhih You, Yu-Cheng Chao, Guan-Hua Wen and Kuan-Yu Chen',
+    venue: 'ROCLING 2026',
+    logo: '/acl-logo.svg',
+    logoAlt: 'Association for Computational Linguistics logo',
+  },
+  {
     title: 'Do Time-Series Foundation Models Pay Off for Industrial Monitoring? A Cost-Aware Empirical Study',
     authors: 'Guan-Hua Wen, Kuan-Yu Chen',
     venue: 'Chitose International Forum on Science & Technology 2026',
