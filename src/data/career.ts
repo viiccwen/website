@@ -5,7 +5,7 @@ export const experience = [
     company: 'Bekinets Studio',
     role: 'Founder',
     period: 'Oct 2026 — Present',
-    logo: '/bekinets.svg',
+    logo: '/bekinets.jpg',
     href: 'https://bekinets.com',
     points: [],
   },
