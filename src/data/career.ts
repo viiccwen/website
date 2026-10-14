@@ -2,6 +2,14 @@ import type { EducationItem, ExperienceItem, OpenSourceItem, ProjectItem } from 
 
 export const experience = [
   {
+    company: 'Bekinets Studio',
+    role: 'Founder',
+    period: 'Oct 2026 — Present',
+    logo: '/bekinets.svg',
+    href: 'https://bekinets.com',
+    points: [],
+  },
+  {
     company: 'Taione Open Source Foundation',
     role: 'Fellow',
     period: 'Oct 2026 — Present',
