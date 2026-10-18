@@ -2,6 +2,13 @@ import type { Talk } from './types'
 
 export const talks = [
   {
+    title: 'MOPCON x JSDC',
+    topic: 'Beyond the Agent：當模型越來越強，我們該刪掉什麼、留下什麼？',
+    href: 'https://mopcon.org/2026/agenda.html?id=2026_Vic-Wen',
+    period: 'Oct 2026',
+    logo: '/mopcon.svg',
+  },
+  {
     title: 'Community Over Code Asia',
     topic: 'Accelerating Quantum Machine Learning: Building a GPU-Accelerated Data Plane in Apache Mahout',
     href: 'https://sessionize.com/s/vic-wen/accelerating-quantum-machine-learning-building-a-g/174748',
