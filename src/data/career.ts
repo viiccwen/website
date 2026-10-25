@@ -25,6 +25,7 @@ export const experience = [
     href: 'https://www.microsoft.com/',
     points: [],
   },
+  /*
   {
     company: 'Fearyn.ai',
     role: 'Co-Founder, CTO',
@@ -33,6 +34,7 @@ export const experience = [
     href: 'https://fearyn.com',
     points: [],
   },
+  */
   {
     company: 'Google Summer of Code',
     role: 'Mentee',
