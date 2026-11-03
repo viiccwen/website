@@ -51,13 +51,6 @@ export const experience = [
     href: 'https://www.taiwanmobile.com/',
     points: [],
   },
-  {
-    company: 'Fantasy X Games',
-    role: 'Software Engineer Intern',
-    period: 'Jul 2025 — Feb 2026',
-    logo: '/fxgames.png',
-    points: [],
-  },
 ] satisfies readonly ExperienceItem[]
 
 export const education = [
