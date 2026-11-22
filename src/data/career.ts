@@ -3,7 +3,7 @@ import type { EducationItem, ExperienceItem, OpenSourceItem, ProjectItem } from 
 export const experience = [
   {
     company: 'Bekinets Studio',
-    role: 'Founder',
+    role: 'Founder & Software Engineer',
     period: 'Oct 2026 — Present',
     logo: '/bekinets.jpg',
     href: 'https://bekinets.com',
@@ -51,9 +51,24 @@ export const experience = [
     href: 'https://www.taiwanmobile.com/',
     points: [],
   },
+  {
+    company: 'Fantasy X Games',
+    role: 'Software Engineer',
+    period: 'Jul 2025 — Feb 2026',
+    logo: '/fxgames.png',
+    points: [],
+  }
 ] satisfies readonly ExperienceItem[]
 
 export const education = [
+  {
+    school: 'National Taiwan University',
+    credential: 'Master in Data Science, College of Electrical Engineering and Computer Science',
+    period: 'Sep 2027 - Jun 2029',
+    logo: '/ntu.svg',
+    href: 'https://www.ntu.edu.tw/',
+    focus: [],
+  },
   {
     school: 'National Taiwan University of Science and Technology',
     credential: 'Bachelor of Science in Computer Science',
@@ -76,9 +91,9 @@ export const projects = [
     logo: '/ian.webp',
     href: 'https://github.com/ntuaiclub/ian',
     points: [
-      "Integrated multiple messaging platforms to provide 24/7 intelligent support as Taiwan's first multi-platform AI Agent built by a student club.",
-      'Built the testing, evaluation, observability, and CI/CD pipelines for the agent platform.',
-      'Served 500+ users and significantly reduced administrative workload for staff.',
+      // "Integrated multiple messaging platforms to provide 24/7 intelligent support as Taiwan's first multi-platform AI Agent built by a student club.",
+      // 'Built the testing, evaluation, observability, and CI/CD pipelines for the agent platform.',
+      // 'Served 500+ users and significantly reduced administrative workload for staff.',
     ],
   },
 ] satisfies readonly ProjectItem[]

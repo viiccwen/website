@@ -24,7 +24,7 @@ export function ProfileHero() {
           <div className="flex flex-wrap items-center gap-4 text-[10px] font-medium uppercase tracking-[0.24em] text-zinc-500 sm:justify-end">
             <span>{profile.location}</span>
             <span aria-hidden="true">·</span>
-            <span>CSIE NTUST</span>
+            <span>MSDS NTU</span>
             <a className="animate-bounce text-violet-400" href="#experience" aria-label="Scroll to experience">
               <ArrowDown className="size-4" />
             </a>
