@@ -1,3 +1,4 @@
+import { Image } from '@/components/Image'
 import { Badge } from '@/components/ui/badge'
 import type { BlogPost } from '@/lib/blog'
 import { revealStyle } from '@/lib/reveal'
@@ -12,7 +13,7 @@ export function BlogPostHeader({ post }: { post: BlogPost }) {
         <p className="font-mono text-xs uppercase tracking-[0.18em] text-zinc-600">{post.date} · {post.readingTime}</p>
         {post.tags.map((tag) => <Badge className="post-tag" key={tag} variant="secondary">{tag}</Badge>)}
       </div>
-      {post.image ? <img alt="" className="mx-auto mt-8 max-h-[28rem] max-w-full rounded-3xl border border-white/10 object-contain shadow-2xl shadow-black/20" data-reveal src={post.image} style={revealStyle(5, 40)} /> : null}
+      {post.image ? <Image alt="" className="mx-auto mt-8 h-auto max-h-[28rem] max-w-full rounded-3xl border border-white/10 object-contain shadow-2xl shadow-black/20" data-reveal loading="eager" src={post.image} style={revealStyle(5, 40)} /> : null}
     </header>
   )
 }

@@ -1,4 +1,5 @@
 import { CodeBlock } from '@/components/CodeBlock'
+import { Image } from '@/components/Image'
 import { headingId } from '@/lib/markdownHeadings'
 
 import { isValidElement, type ReactNode } from 'react'
@@ -40,9 +41,9 @@ export function MarkdownContent({ content }: { content: string }) {
           ),
           img: ({ alt, src, title }) => (
             <span className="my-8 flex justify-center">
-              <img
+              <Image
                 alt={alt ?? ''}
-                className="max-h-[34rem] max-w-full rounded-3xl border border-white/10 object-contain shadow-2xl shadow-black/20"
+                className="h-auto max-h-[34rem] max-w-full rounded-3xl border border-white/10 object-contain shadow-2xl shadow-black/20"
                 loading="lazy"
                 src={src ?? ''}
                 style={{ width: widthFromTitle(title) }}

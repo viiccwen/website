@@ -1,3 +1,4 @@
+import { Image } from '@/components/Image'
 import { publications } from '@/data/publications'
 
 export function PublicationsSection() {
@@ -7,7 +8,7 @@ export function PublicationsSection() {
         <article className="group py-7 first:pt-0 last:pb-0" key={publication.title}>
           <div className="flex items-start gap-4">
             <div className="mt-1 grid size-11 shrink-0 place-items-center overflow-hidden rounded-lg border border-white/10 bg-white shadow-lg shadow-black/20">
-              <img alt={publication.logoAlt} className="size-full object-contain" src={publication.logo} />
+              <Image alt={publication.logoAlt} className="size-full object-contain" height={44} sizes="44px" src={publication.logo} width={44} />
             </div>
             <div className="min-w-0 flex-1">
               <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-start">

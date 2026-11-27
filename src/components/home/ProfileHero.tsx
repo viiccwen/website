@@ -1,5 +1,6 @@
 import { ArrowDown } from 'lucide-react'
 
+import { Image } from '@/components/Image'
 import { profile } from '@/data/site'
 import { revealStyle } from '@/lib/reveal'
 
@@ -15,7 +16,7 @@ export function ProfileHero() {
           </h1>
           <div className="mb-2 size-20 shrink-0 sm:size-24" data-reveal style={revealStyle(2, 70, 90)}>
             <div className="grid size-full place-items-center rounded-full border border-violet-500/30 bg-[conic-gradient(from_180deg,rgba(255,255,255,0.48),rgba(255,255,255,0.08),rgba(163,163,163,0.28))] p-px shadow-2xl shadow-violet-950/40">
-              <img alt={profile.portraitAlt} className="size-full rounded-full bg-neutral-950 object-cover saturate-110 transition duration-500 hover:saturate-150" src={profile.portrait} />
+              <Image alt={profile.portraitAlt} className="size-full rounded-full bg-neutral-950 object-cover saturate-110 transition duration-500 hover:saturate-150" height={96} loading="eager" sizes="(min-width: 640px) 96px, 80px" src={profile.portrait} width={96} />
             </div>
           </div>
         </div>

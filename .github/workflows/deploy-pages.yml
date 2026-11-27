@@ -40,6 +40,9 @@ jobs:
       - name: Lint
         run: pnpm lint
 
+      - name: Test image generation
+        run: pnpm test:images
+
       - name: Build
         run: pnpm build
 
