@@ -44,6 +44,13 @@ export const experience = [
     points: [],
   },
   {
+    company: 'Aura Genesis',
+    role: 'Software Engineer',
+    period: 'Mar 2026 — Oct 2026',
+    logo: '/aura-genesis.svg',
+    points: [],
+  },
+  {
     company: 'Taiwan Mobile',
     role: 'Software Engineer Intern',
     period: 'Mar 2026 — Jul 2026',
@@ -63,7 +70,7 @@ export const experience = [
 export const education = [
   {
     school: 'National Taiwan University',
-    credential: 'Master in Data Science, College of Electrical Engineering and Computer Science',
+    credential: 'Master of Data Science, College of EECS',
     period: 'Sep 2027 - Jun 2029',
     logo: '/ntu.svg',
     href: 'https://www.ntu.edu.tw/',
@@ -75,11 +82,7 @@ export const education = [
     period: 'Sep 2023 — Jun 2027',
     logo: '/ntust.png',
     href: 'https://www.ntust.edu.tw',
-    focus: [
-      "Final-year CSIE student with GPA 4.21/4.30, ranked 3rd in the department (Top 3%), and awarded Dean's List 3 times.",
-      'NLP Lab (Prof. Kuan-Yu Chen), researching Multimodal Emotion Recognition in Conversations.',
-    ],
-    labHref: 'https://nlp.csie.ntust.edu.tw/',
+    focus: [],
   },
 ] satisfies readonly EducationItem[]
 

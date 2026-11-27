@@ -2,13 +2,6 @@ import type { Publication } from './types'
 
 export const publications = [
   {
-    title: 'Board-Feedback Closed-Form Ensembling with LLM Direct Scoring for Chinese Valence-Arousal Regression in New-Immigrant Texts',
-    authors: 'Chuan-Jhih You, Yu-Cheng Chao, Guan-Hua Wen, Kuan-Yu Chen',
-    venue: 'the 38th Conference on Computational Linguistics and Speech Processing',
-    logo: '/acl-logo.svg',
-    logoAlt: 'Association for Computational Linguistics logo',
-  },
-  {
     title: 'Do Time-Series Foundation Models Pay Off for Industrial Monitoring? A Cost-Aware Empirical Study',
     authors: 'Guan-Hua Wen, Kuan-Yu Chen',
     venue: 'Chitose International Forum on Science & Technology 2026',
@@ -31,12 +24,5 @@ export const publications = [
     logo: '/arxiv-logo.png',
     logoAlt: 'arXiv logo',
     href: 'http://arxiv.org/abs/2609.13857',
-  },
-  {
-    title: 'Apache Mahout QDP: GPU-Accelerated Quantum Data Plane',
-    authors: 'Jie-Kai Chang*, Guan-Ming Chiu*, Hsien-Cheng Huang*, Kuan-Hao Huang*, Guan-Hua Wen*',
-    venue: 'Preprint',
-    logo: '/arxiv-logo.png',
-    logoAlt: 'arXiv logo',
   },
 ] satisfies readonly Publication[]
