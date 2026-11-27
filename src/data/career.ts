@@ -67,7 +67,7 @@ export const experience = [
   }
 ] satisfies readonly ExperienceItem[]
 
-export const education = [
+export const education: readonly EducationItem[] = [
   {
     school: 'National Taiwan University',
     credential: 'Master of Data Science, College of EECS',
@@ -84,7 +84,7 @@ export const education = [
     href: 'https://www.ntust.edu.tw',
     focus: [],
   },
-] satisfies readonly EducationItem[]
+]
 
 export const projects = [
   {
